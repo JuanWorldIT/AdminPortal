@@ -1,0 +1,19 @@
+html, body{
+    height: 100%;
+}
+.logo{
+    margin: -25px;
+}
+
+.custport{
+    display: inline-block;
+    font-size: 1.8em;
+}
+
+.snav a{
+    padding-left: 10px;
+}
+
+.snav img{
+    margin-right: 10px;
+}
