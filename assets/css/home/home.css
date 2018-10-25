@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-#contents{
-    float: left;
-    width: 100%;
-    margin: 20px;
-    position: relative;
-}
-
-#barchart{
-    height: 300px;
-    width: 60%;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-#barchart .chart-container{
-    border: 0.5px solid #515252;
-=======
 #contents{
     float: left;
     width: 100%;
@@ -35,5 +16,4 @@
 
 #barchart .chart-container{
     border: 0.5px solid #515252;
->>>>>>> d82d6c3aa2ff993f714812b2073dde4935f2bf06
 }
