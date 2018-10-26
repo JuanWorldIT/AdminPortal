@@ -1,0 +1,1964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from wrappixel.com/demos/admin-templates/material-pro/dark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 02:28:39 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- chartist CSS -->
+    <link href="assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
+    <link href="assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!--This page css - Morris CSS -->
+    <link href="assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="css/colors/default-dark.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header fix-sidebar card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <!-- kopya dito -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="dashboard.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="assets/images/logo-light-icon.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <p alt="homepage" class="dark-logo" >Admin Portal</p>
+                         <!-- Light Logo text -->    
+                         <p class="light-logo" alt="homepage" >Admin Portal</p>
+                         </span>
+                    </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark"
+                                href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-view-grid"></i></a>
+                            <div class="dropdown-menu scale-up-left">
+                                <ul class="mega-dropdown-menu row">
+                                    <li class="col-lg-3 col-xlg-2 m-b-30">
+                                        <h4 class="m-b-20">CAROUSEL</h4>
+                                        <!-- CAROUSEL -->
+                                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="carousel-item active">
+                                                    <div class="container"> <img class="d-block img-fluid" src="assets/images/big/img1.jpg"
+                                                            alt="First slide"></div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="container"><img class="d-block img-fluid" src="assets/images/big/img2.jpg"
+                                                            alt="Second slide"></div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="container"><img class="d-block img-fluid" src="assets/images/big/img3.jpg"
+                                                            alt="Third slide"></div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                                data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span> </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                                data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span> </a>
+                                        </div>
+                                        <!-- End CAROUSEL -->
+                                    </li>
+                                    <li class="col-lg-3 m-b-30">
+                                        <h4 class="m-b-20">ACCORDION</h4>
+                                        <!-- Accordian -->
+                                        <div id="accordion" class="nav-accordion" role="tablist" aria-multiselectable="true">
+                                            <div class="card">
+                                                <div class="card-header" role="tab" id="headingOne">
+                                                    <h5 class="mb-0">
+                                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            Collapsible Group Item #1
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseOne" class="collapse show" role="tabpanel"
+                                                    aria-labelledby="headingOne">
+                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim
+                                                        eiusmod high. </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" role="tab" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                            href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            Collapsible Group Item #2
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim
+                                                        eiusmod high life accusamus terry richardson ad squid. </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" role="tab" id="headingThree">
+                                                    <h5 class="mb-0">
+                                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                            href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            Collapsible Group Item #3
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseThree" class="collapse" role="tabpanel"
+                                                    aria-labelledby="headingThree">
+                                                    <div class="card-body"> Anim pariatur cliche reprehenderit, enim
+                                                        eiusmod high life accusamus terry richardson ad squid. </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-lg-3  m-b-30">
+                                        <h4 class="m-b-20">CONTACT US</h4>
+                                        <!-- Contact -->
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="exampleInputname1"
+                                                    placeholder="Enter Name"> </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Enter email">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="exampleTextarea" rows="3"
+                                                    placeholder="Message"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-info">Submit</button>
+                                        </form>
+                                    </li>
+                                    <li class="col-lg-3 col-xlg-4 m-b-30">
+                                        <h4 class="m-b-20">List style</h4>
+                                        <!-- List style -->
+                                        <ul class="list-style-none">
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
+                                                    You can give link</a></li>
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
+                                                    Give link</a></li>
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
+                                                    Another Give link</a></li>
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
+                                                    Forth link</a></li>
+                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i>
+                                                    Another fifth link</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted text-muted waves-effect waves-dark" href="#"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right mailbox scale-up">
+                                <ul>
+                                    <li>
+                                        <div class="drop-title">Notifications</div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center">
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Luanch Admin</h5> <span class="mail-desc">Just see the my new
+                                                        admin!</span> <span class="time">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-success btn-circle"><i class="ti-calendar"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Event today</h5> <span class="mail-desc">Just a reminder that
+                                                        you have event</span> <span class="time">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-info btn-circle"><i class="ti-settings"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Settings</h5> <span class="mail-desc">You can customize this
+                                                        template as you want</span> <span class="time">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="btn btn-primary btn-circle"><i class="ti-user"></i></div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center" href="javascript:void(0);"> <strong>Check all
+                                                notifications</strong> <i class="fa fa-angle-right"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Messages -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" id="2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-email"></i>
+                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                            </a>
+                            <div class="dropdown-menu mailbox dropdown-menu-right scale-up" aria-labelledby="2">
+                                <ul>
+                                    <li>
+                                        <div class="drop-title">You have 4 new messages</div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center">
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="user-img"> <img src="assets/images/users/1.jpg" alt="user"
+                                                        class="img-circle"> <span class="profile-status online pull-right"></span>
+                                                </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="user-img"> <img src="assets/images/users/2.jpg" alt="user"
+                                                        class="img-circle"> <span class="profile-status busy pull-right"></span>
+                                                </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See
+                                                        you at</span> <span class="time">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="user-img"> <img src="assets/images/users/3.jpg" alt="user"
+                                                        class="img-circle"> <span class="profile-status away pull-right"></span>
+                                                </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span>
+                                                    <span class="time">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="#">
+                                                <div class="user-img"> <img src="assets/images/users/4.jpg" alt="user"
+                                                        class="img-circle"> <span class="profile-status offline pull-right"></span>
+                                                </div>
+                                                <div class="mail-contnet">
+                                                    <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link text-center" href="javascript:void(0);"> <strong>See all
+                                                e-Mails</strong> <i class="fa fa-angle-right"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                        <!-- ============================================================== -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"><img src="assets/images/users/1.jpg" alt="user"
+                                    class="profile-pic" /></a>
+                            <div class="dropdown-menu dropdown-menu-right scale-up">
+                                <ul class="dropdown-user">
+                                    <li>
+                                        <div class="dw-user-box">
+                                            <div class="u-img"><img src="assets/images/users/1.jpg" alt="user"></div>
+                                            <div class="u-text">
+                                                <h4>Steave Jobs</h4>
+                                                <p class="text-muted">varun@gmail.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View
+                                                    Profile</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="ti-user"></i> My Profile</a></li>
+                                    <li><a href="#"><i class="ti-wallet"></i> My Balance</a></li>
+                                    <li><a href="#"><i class="ti-email"></i> Inbox</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="ti-settings"></i> Account Setting</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- Language -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="#" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"> <i class="flag-icon flag-icon-us"></i></a>
+                            <div class="dropdown-menu dropdown-menu-right scale-up"> <a class="dropdown-item" href="#"><i
+                                        class="flag-icon flag-icon-in"></i> India</a> <a class="dropdown-item" href="#"><i
+                                        class="flag-icon flag-icon-fr"></i> French</a> <a class="dropdown-item" href="#"><i
+                                        class="flag-icon flag-icon-cn"></i> China</a> <a class="dropdown-item" href="#"><i
+                                        class="flag-icon flag-icon-de"></i> Dutch</a> </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li> <a class="waves-effect waves-dark" href="dashboard.html" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard </span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="customer.html" aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Customer</span></a>
+                        </li>
+                        <li><a class="waves-effect waves-dark" href="transaction-history.html" aria-expanded="false"><i class="mdi mdi-history"></i><span class="hide-menu">Transaction History</span></a>
+                        </li>
+                        <li><a class="waves-effect waves-dark" href="email.html" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">Inbox</span></a>
+                        </li>
+                        <li><a class="waves-effect waves-dark" href="trading.html" aria-expanded="false"><i class="mdi mdi-barcode"></i><span class="hide-menu">Trading</span></a>
+                        </li>
+                        <li><a class="waves-effect waves-dark" href="chat.html" aria-expanded="false"><i class="mdi mdi-message-text-outline"></i><span class="hide-menu">Chat</span></a>
+                        </li>
+                        <li><a class="waves-effect waves-dark" href="calendar.html" aria-expanded="false"><i class="mdi mdi-calendar"></i><span class="hide-menu">Calendar</span></a>
+                        </li>
+                        <!--Divider-->
+                        <li class="nav-devider"></li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+            <!-- Bottom points-->
+            <div class="sidebar-footer">
+                <!-- item--><a href="#" class="link" data-toggle="tooltip" title="Settings"><i class="ti-settings"></i></a>
+                <!-- item--><a href="#" class="link" data-toggle="tooltip" title="Email"><i class="mdi mdi-gmail"></i></a>
+                <!-- item--><a href="#" class="link" data-toggle="tooltip" title="Logout"><i class="mdi mdi-power"></i></a>
+            </div>
+            <!-- End Bottom points-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- TAPOS DITO -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row page-titles">
+                    <div class="col-md-5 col-8 align-self-center">
+                        <h3 class="text-themecolor m-b-0 m-t-0">Trading</h3>
+                    </div>
+                    <div class="col-md-7 col-4 align-self-center">
+                        <div class="d-flex m-t-10 justify-content-end">
+                            <div class="d-flex m-r-20 m-l-10 hidden-md-down">
+                                <div class="chart-text m-r-10">
+                                    <h6 class="m-b-0"><small>THIS MONTH</small></h6>
+                                    <h4 class="m-t-0 text-info">$58,356</h4>
+                                </div>
+                                <div class="spark-chart">
+                                    <div id="monthchart"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex m-r-20 m-l-10 hidden-md-down">
+                                <div class="chart-text m-r-10">
+                                    <h6 class="m-b-0"><small>LAST MONTH</small></h6>
+                                    <h4 class="m-t-0 text-primary">$48,356</h4>
+                                </div>
+                                <div class="spark-chart">
+                                    <div id="lastmonthchart"></div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <button class="right-side-toggle waves-effect waves-light btn-success btn btn-circle btn-sm pull-right m-l-10"><i
+                                        class="ti-settings text-white"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>86%</h3>
+                                    <h6 class="card-subtitle">Total Product</h6>
+                                </div>
+                                <div class="col-12">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 85%; height: 6px;"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>40%</h3>
+                                    <h6 class="card-subtitle">Pending Product</h6>
+                                </div>
+                                <div class="col-12">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 40%; height: 6px;"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>56%</h3>
+                                    <h6 class="card-subtitle">Product A</h6>
+                                </div>
+                                <div class="col-12">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 56%; height: 6px;"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>26%</h3>
+                                    <h6 class="card-subtitle">Product B</h6>
+                                </div>
+                                <div class="col-12">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-inverse" role="progressbar" style="width: 26%; height: 6px;"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-4">
+                                    <div class="card-body">
+                                        <h3>Sales of Ample Vs Pixel</h3>
+                                        <h6 class="card-subtitle m-b-0">check the difference of Admin</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 b-r align-self-center">
+                                    <div class="card-body">
+                                        <div class="d-flex flex-row">
+                                            <div class="col-8 p-0 align-self-center">
+                                                <h3 class="m-b-0">$31568</h3>
+                                                <h5 class="text-muted m-b-0">Growth</h5>
+                                            </div>
+                                            <div class="col-4 text-right">
+                                                <div class="round align-self-center round-success"><i class="mdi mdi-chart-line"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 align-self-center">
+                                    <div class="card-body">
+                                        <div class="d-flex flex-row">
+                                            <div class="col-8 p-0 align-self-center">
+                                                <h3 class="m-b-0">$15478</h3>
+                                                <h5 class="text-muted m-b-0">Loss</h5>
+                                            </div>
+                                            <div class="col-4 text-right">
+                                                <div class="round align-self-center bg-inverse"><i class="mdi mdi-chart-bar"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <hr class="m-t-0">
+                            </div>
+                            <div class="chartist-chart andvios m-t-40" style="height:350px;">
+                                <div class="chartist-tooltip" style="top: 248px; left: 113px;"></div><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct"
+                                    width="100%" height="100%" class="ct-chart-line" style="width: 100%; height: 100%;">
+                                    <g class="ct-grids">
+                                        <line y1="270" y2="270" x1="40" x2="1571" class="ct-grid ct-vertical"></line>
+                                        <line y1="190" y2="190" x1="40" x2="1571" class="ct-grid ct-vertical"></line>
+                                        <line y1="110" y2="110" x1="40" x2="1571" class="ct-grid ct-vertical"></line>
+                                        <line y1="30" y2="30" x1="40" x2="1571" class="ct-grid ct-vertical"></line>
+                                    </g>
+                                    <g>
+                                        <g class="ct-series ct-series-a">
+                                            <path d="M40,270L40,270C70.02,264.667,100.039,254,130.059,254C160.078,254,190.098,258,220.118,258C250.137,258,280.157,174,310.176,174C340.196,174,370.216,234,400.235,234C430.255,234,460.275,232.37,490.294,230C520.314,227.63,550.333,198,580.353,198C610.373,198,640.392,210,670.412,210C700.431,210,730.451,94,760.471,94C790.49,94,820.51,202,850.529,202C880.549,202,910.569,198.148,940.588,194C970.608,189.852,1000.627,173.778,1030.647,166C1060.667,158.222,1090.686,146,1120.706,146C1150.725,146,1180.745,238,1210.765,238C1240.784,238,1270.804,122,1300.824,122C1330.843,122,1360.863,230,1390.882,230C1420.902,230,1450.922,198.585,1480.941,174C1510.961,149.415,1540.98,102,1571,66L1571,270Z"
+                                                class="ct-area"></path>
+                                            <path d="M40,270C70.02,264.667,100.039,254,130.059,254C160.078,254,190.098,258,220.118,258C250.137,258,280.157,174,310.176,174C340.196,174,370.216,234,400.235,234C430.255,234,460.275,232.37,490.294,230C520.314,227.63,550.333,198,580.353,198C610.373,198,640.392,210,670.412,210C700.431,210,730.451,94,760.471,94C790.49,94,820.51,202,850.529,202C880.549,202,910.569,198.148,940.588,194C970.608,189.852,1000.627,173.778,1030.647,166C1060.667,158.222,1090.686,146,1120.706,146C1150.725,146,1180.745,238,1210.765,238C1240.784,238,1270.804,122,1300.824,122C1330.843,122,1360.863,230,1390.882,230C1420.902,230,1450.922,198.585,1480.941,174C1510.961,149.415,1540.98,102,1571,66"
+                                                class="ct-line"></path>
+                                            <line x1="40" y1="270" x2="40.01" y2="270" class="ct-point" ct:value="0"></line>
+                                            <line x1="130.05882352941177" y1="254" x2="130.06882352941176" y2="254"
+                                                class="ct-point" ct:value="4"></line>
+                                            <line x1="220.11764705882354" y1="258" x2="220.12764705882353" y2="258"
+                                                class="ct-point" ct:value="3"></line>
+                                            <line x1="310.1764705882353" y1="174" x2="310.1864705882353" y2="174" class="ct-point"
+                                                ct:value="24"></line>
+                                            <line x1="400.2352941176471" y1="234" x2="400.24529411764706" y2="234"
+                                                class="ct-point" ct:value="9"></line>
+                                            <line x1="490.29411764705884" y1="230" x2="490.30411764705883" y2="230"
+                                                class="ct-point" ct:value="10"></line>
+                                            <line x1="580.3529411764706" y1="198" x2="580.3629411764706" y2="198" class="ct-point"
+                                                ct:value="18"></line>
+                                            <line x1="670.4117647058824" y1="210" x2="670.4217647058824" y2="210" class="ct-point"
+                                                ct:value="15"></line>
+                                            <line x1="760.4705882352941" y1="94" x2="760.4805882352941" y2="94" class="ct-point"
+                                                ct:value="44"></line>
+                                            <line x1="850.5294117647059" y1="202" x2="850.5394117647058" y2="202" class="ct-point"
+                                                ct:value="17"></line>
+                                            <line x1="940.5882352941177" y1="194" x2="940.5982352941177" y2="194" class="ct-point"
+                                                ct:value="19"></line>
+                                            <line x1="1030.6470588235295" y1="166" x2="1030.6570588235295" y2="166"
+                                                class="ct-point" ct:value="26"></line>
+                                            <line x1="1120.7058823529412" y1="146" x2="1120.7158823529412" y2="146"
+                                                class="ct-point" ct:value="31"></line>
+                                            <line x1="1210.764705882353" y1="238" x2="1210.774705882353" y2="238" class="ct-point"
+                                                ct:value="8"></line>
+                                            <line x1="1300.8235294117649" y1="122" x2="1300.8335294117649" y2="122"
+                                                class="ct-point" ct:value="37"></line>
+                                            <line x1="1390.8823529411766" y1="230" x2="1390.8923529411766" y2="230"
+                                                class="ct-point" ct:value="10"></line>
+                                            <line x1="1480.9411764705883" y1="174" x2="1480.9511764705883" y2="174"
+                                                class="ct-point" ct:value="24"></line>
+                                            <line x1="1571" y1="66" x2="1571.01" y2="66" class="ct-point" ct:value="51"></line>
+                                        </g>
+                                        <g class="ct-series ct-series-b">
+                                            <path d="M40,270L40,270C70.02,268.667,100.039,266,130.059,266C160.078,266,190.098,266,220.118,266C250.137,266,280.157,244.609,310.176,230C340.196,215.391,370.216,174,400.235,174C430.255,174,460.275,246,490.294,246C520.314,246,550.333,222,580.353,222C610.373,222,640.392,254,670.412,254C700.431,254,730.451,186,760.471,186C790.49,186,820.51,210,850.529,210C880.549,210,910.569,94,940.588,94C970.608,94,1000.627,174,1030.647,174C1060.667,174,1090.686,158,1120.706,158C1150.725,158,1180.745,254,1210.765,254C1240.784,254,1270.804,240.353,1300.824,230C1330.843,219.647,1360.863,186,1390.882,186C1420.902,186,1450.922,250,1480.941,250C1510.961,250,1540.98,138,1571,82L1571,270Z"
+                                                class="ct-area"></path>
+                                            <path d="M40,270C70.02,268.667,100.039,266,130.059,266C160.078,266,190.098,266,220.118,266C250.137,266,280.157,244.609,310.176,230C340.196,215.391,370.216,174,400.235,174C430.255,174,460.275,246,490.294,246C520.314,246,550.333,222,580.353,222C610.373,222,640.392,254,670.412,254C700.431,254,730.451,186,760.471,186C790.49,186,820.51,210,850.529,210C880.549,210,910.569,94,940.588,94C970.608,94,1000.627,174,1030.647,174C1060.667,174,1090.686,158,1120.706,158C1150.725,158,1180.745,254,1210.765,254C1240.784,254,1270.804,240.353,1300.824,230C1330.843,219.647,1360.863,186,1390.882,186C1420.902,186,1450.922,250,1480.941,250C1510.961,250,1540.98,138,1571,82"
+                                                class="ct-line"></path>
+                                            <line x1="40" y1="270" x2="40.01" y2="270" class="ct-point" ct:value="0"></line>
+                                            <line x1="130.05882352941177" y1="266" x2="130.06882352941176" y2="266"
+                                                class="ct-point" ct:value="1"></line>
+                                            <line x1="220.11764705882354" y1="266" x2="220.12764705882353" y2="266"
+                                                class="ct-point" ct:value="1"></line>
+                                            <line x1="310.1764705882353" y1="230" x2="310.1864705882353" y2="230" class="ct-point"
+                                                ct:value="10"></line>
+                                            <line x1="400.2352941176471" y1="174" x2="400.24529411764706" y2="174"
+                                                class="ct-point" ct:value="24"></line>
+                                            <line x1="490.29411764705884" y1="246" x2="490.30411764705883" y2="246"
+                                                class="ct-point" ct:value="6"></line>
+                                            <line x1="580.3529411764706" y1="222" x2="580.3629411764706" y2="222" class="ct-point"
+                                                ct:value="12"></line>
+                                            <line x1="670.4117647058824" y1="254" x2="670.4217647058824" y2="254" class="ct-point"
+                                                ct:value="4"></line>
+                                            <line x1="760.4705882352941" y1="186" x2="760.4805882352941" y2="186" class="ct-point"
+                                                ct:value="21"></line>
+                                            <line x1="850.5294117647059" y1="210" x2="850.5394117647058" y2="210" class="ct-point"
+                                                ct:value="15"></line>
+                                            <line x1="940.5882352941177" y1="94" x2="940.5982352941177" y2="94" class="ct-point"
+                                                ct:value="44"></line>
+                                            <line x1="1030.6470588235295" y1="174" x2="1030.6570588235295" y2="174"
+                                                class="ct-point" ct:value="24"></line>
+                                            <line x1="1120.7058823529412" y1="158" x2="1120.7158823529412" y2="158"
+                                                class="ct-point" ct:value="28"></line>
+                                            <line x1="1210.764705882353" y1="254" x2="1210.774705882353" y2="254" class="ct-point"
+                                                ct:value="4"></line>
+                                            <line x1="1300.8235294117649" y1="230" x2="1300.8335294117649" y2="230"
+                                                class="ct-point" ct:value="10"></line>
+                                            <line x1="1390.8823529411766" y1="186" x2="1390.8923529411766" y2="186"
+                                                class="ct-point" ct:value="21"></line>
+                                            <line x1="1480.9411764705883" y1="250" x2="1480.9511764705883" y2="250"
+                                                class="ct-point" ct:value="5"></line>
+                                            <line x1="1571" y1="82" x2="1571.01" y2="82" class="ct-point" ct:value="47"></line>
+                                        </g>
+                                    </g>
+                                    <g class="ct-labels">
+                                        <foreignObject style="overflow: visible;" x="40" y="275" width="90.05882352941177"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">0</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="130.05882352941177" y="275" width="90.05882352941177"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">4</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="220.11764705882354" y="275" width="90.05882352941177"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">8</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="310.1764705882353" y="275" width="90.05882352941177"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">12</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="400.2352941176471" y="275" width="90.05882352941177"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">16</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="490.29411764705884" y="275" width="90.05882352941177"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">20</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="580.3529411764706" y="275" width="90.05882352941182"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">24</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="670.4117647058824" y="275" width="90.05882352941171"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">30</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="760.4705882352941" y="275" width="90.05882352941171"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">16</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="850.5294117647059" y="275" width="90.05882352941182"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">20</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="940.5882352941177" y="275" width="90.05882352941182"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">24</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="1030.6470588235295" y="275" width="90.05882352941171"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">30</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="1120.7058823529412" y="275" width="90.05882352941171"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">34</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="1210.764705882353" y="275" width="90.05882352941194"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">38</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="1300.8235294117649" y="275" width="90.05882352941171"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">42</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="1390.8823529411766" y="275" width="90.05882352941171"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">46</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="1480.9411764705883" y="275" width="90.05882352941171"
+                                            height="40"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 90px; height: 40px;">50</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" x="1571" y="275" width="30" height="40"><span
+                                                class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="width: 30px; height: 40px;">54</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" y="190" x="30" height="80" width="0"><span
+                                                class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="height: 80px; width: 0px;">0</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" y="110" x="30" height="80" width="0"><span
+                                                class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="height: 80px; width: 0px;">20</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" y="30" x="30" height="80" width="0"><span
+                                                class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="height: 80px; width: 0px;">40</span></foreignObject>
+                                        <foreignObject style="overflow: visible;" y="0" x="30" height="30" width="0"><span
+                                                class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                                style="height: 30px; width: 0px;">60</span></foreignObject>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex no-block align-items-center">
+                                    <div>
+                                        <h3 class="card-title">Download Count</h3>
+                                        <h6 class="card-subtitle">you can check the count</h6>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <ul class="list-inline">
+                                            <li>
+                                                <h6 class="text-muted"><i class="fa fa-circle m-r-5 text-success"></i>Free</h6>
+                                            </li>
+                                            <li>
+                                                <h6 class="text-muted"><i class="fa fa-circle m-r-5 text-primary"></i>Premium</h6>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="download-state chartist-chart" style="height:380px">
+                                    <div class="chartist-tooltip" style="top: 136px; left: 316px;"><span class="chartist-tooltip-value">9</span></div><svg
+                                        xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%"
+                                        class="ct-chart-bar" style="width: 100%; height: 100%;">
+                                        <g class="ct-grids">
+                                            <line y1="345" y2="345" x1="50" x2="865.5833129882812" class="ct-grid ct-vertical"></line>
+                                            <line y1="308.3333333333333" y2="308.3333333333333" x1="50" x2="865.5833129882812"
+                                                class="ct-grid ct-vertical"></line>
+                                            <line y1="271.6666666666667" y2="271.6666666666667" x1="50" x2="865.5833129882812"
+                                                class="ct-grid ct-vertical"></line>
+                                            <line y1="235" y2="235" x1="50" x2="865.5833129882812" class="ct-grid ct-vertical"></line>
+                                            <line y1="198.33333333333334" y2="198.33333333333334" x1="50" x2="865.5833129882812"
+                                                class="ct-grid ct-vertical"></line>
+                                            <line y1="161.66666666666666" y2="161.66666666666666" x1="50" x2="865.5833129882812"
+                                                class="ct-grid ct-vertical"></line>
+                                            <line y1="125" y2="125" x1="50" x2="865.5833129882812" class="ct-grid ct-vertical"></line>
+                                            <line y1="88.33333333333331" y2="88.33333333333331" x1="50" x2="865.5833129882812"
+                                                class="ct-grid ct-vertical"></line>
+                                            <line y1="51.666666666666686" y2="51.666666666666686" x1="50" x2="865.5833129882812"
+                                                class="ct-grid ct-vertical"></line>
+                                            <line y1="15" y2="15" x1="50" x2="865.5833129882812" class="ct-grid ct-vertical"></line>
+                                        </g>
+                                        <g>
+                                            <g class="ct-series ct-series-a">
+                                                <line x1="103.25595092773438" x2="103.25595092773438" y1="345" y2="198.33333333333334"
+                                                    class="ct-bar" ct:value="5"></line>
+                                                <line x1="219.76785278320312" x2="219.76785278320312" y1="345" y2="227.66666666666669"
+                                                    class="ct-bar" ct:value="4"></line>
+                                                <line x1="336.2797546386719" x2="336.2797546386719" y1="345" y2="257"
+                                                    class="ct-bar" ct:value="3"></line>
+                                                <line x1="452.7916564941406" x2="452.7916564941406" y1="345" y2="139.66666666666666"
+                                                    class="ct-bar" ct:value="7"></line>
+                                                <line x1="569.3035583496094" x2="569.3035583496094" y1="345" y2="198.33333333333334"
+                                                    class="ct-bar" ct:value="5"></line>
+                                                <line x1="685.8154602050781" x2="685.8154602050781" y1="345" y2="51.666666666666686"
+                                                    class="ct-bar" ct:value="10"></line>
+                                                <line x1="802.3273620605469" x2="802.3273620605469" y1="345" y2="257"
+                                                    class="ct-bar" ct:value="3"></line>
+                                            </g>
+                                            <g class="ct-series ct-series-b">
+                                                <line x1="113.25595092773438" x2="113.25595092773438" y1="345" y2="257"
+                                                    class="ct-bar" ct:value="3"></line>
+                                                <line x1="229.76785278320312" x2="229.76785278320312" y1="345" y2="286.3333333333333"
+                                                    class="ct-bar" ct:value="2"></line>
+                                                <line x1="346.2797546386719" x2="346.2797546386719" y1="345" y2="81"
+                                                    class="ct-bar" ct:value="9"></line>
+                                                <line x1="462.7916564941406" x2="462.7916564941406" y1="345" y2="198.33333333333334"
+                                                    class="ct-bar" ct:value="5"></line>
+                                                <line x1="579.3035583496094" x2="579.3035583496094" y1="345" y2="227.66666666666669"
+                                                    class="ct-bar" ct:value="4"></line>
+                                                <line x1="695.8154602050781" x2="695.8154602050781" y1="345" y2="169"
+                                                    class="ct-bar" ct:value="6"></line>
+                                                <line x1="812.3273620605469" x2="812.3273620605469" y1="345" y2="227.66666666666669"
+                                                    class="ct-bar" ct:value="4"></line>
+                                            </g>
+                                        </g>
+                                        <g class="ct-labels">
+                                            <foreignObject style="overflow: visible;" x="50" y="350" width="116.51190185546875"
+                                                height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                                    style="width: 117px; height: 20px;">Mon</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" x="166.51190185546875" y="350"
+                                                width="116.51190185546875" height="20"><span class="ct-label ct-horizontal ct-end"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="width: 117px; height: 20px;">Tue</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" x="283.0238037109375" y="350"
+                                                width="116.51190185546875" height="20"><span class="ct-label ct-horizontal ct-end"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="width: 117px; height: 20px;">Wed</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" x="399.53570556640625" y="350"
+                                                width="116.51190185546875" height="20"><span class="ct-label ct-horizontal ct-end"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="width: 117px; height: 20px;">Thu</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" x="516.047607421875" y="350"
+                                                width="116.51190185546875" height="20"><span class="ct-label ct-horizontal ct-end"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="width: 117px; height: 20px;">Fri</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" x="632.5595092773438" y="350"
+                                                width="116.51190185546875" height="20"><span class="ct-label ct-horizontal ct-end"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="width: 117px; height: 20px;">Sat</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" x="749.0714111328125" y="350"
+                                                width="116.51190185546875" height="20"><span class="ct-label ct-horizontal ct-end"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="width: 117px; height: 20px;">Sun</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="308.3333333333333" x="10"
+                                                height="36.666666666666664" width="30"><span class="ct-label ct-vertical ct-start"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="height: 37px; width: 30px;">0</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="271.66666666666663" x="10"
+                                                height="36.666666666666664" width="30"><span class="ct-label ct-vertical ct-start"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="height: 37px; width: 30px;">1.25</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="235" x="10" height="36.66666666666667"
+                                                width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                                    style="height: 37px; width: 30px;">2.5</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="198.33333333333334" x="10"
+                                                height="36.66666666666666" width="30"><span class="ct-label ct-vertical ct-start"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="height: 37px; width: 30px;">3.75</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="161.66666666666666" x="10"
+                                                height="36.666666666666686" width="30"><span class="ct-label ct-vertical ct-start"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="height: 37px; width: 30px;">5</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="125" x="10" height="36.66666666666666"
+                                                width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                                    style="height: 37px; width: 30px;">6.25</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="88.33333333333331" x="10"
+                                                height="36.666666666666686" width="30"><span class="ct-label ct-vertical ct-start"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="height: 37px; width: 30px;">7.5</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="51.666666666666686" x="10"
+                                                height="36.66666666666663" width="30"><span class="ct-label ct-vertical ct-start"
+                                                    xmlns="http://www.w3.org/2000/xmlns/" style="height: 37px; width: 30px;">8.75</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="15" x="10" height="36.666666666666686"
+                                                width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                                    style="height: 37px; width: 30px;">10</span></foreignObject>
+                                            <foreignObject style="overflow: visible;" y="-15" x="10" height="30" width="30"><span
+                                                    class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                                    style="height: 30px; width: 30px;">11.25</span></foreignObject>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <!-- Column -->
+                        <div class="card card-inverse card-primary">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="m-r-20 align-self-center">
+                                        <h1 class="text-white"><i class="ti-pie-chart"></i></h1>
+                                    </div>
+                                    <div>
+                                        <h3 class="card-title">Bandwidth usage</h3>
+                                        <h6 class="card-subtitle">March 2017</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 align-self-center">
+                                        <h2 class="text-white">50 GB</h2>
+                                    </div>
+                                    <div class="col-8 align-self-center">
+                                        <div class="usage chartist-chart" style="height:120px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column -->
+                        <!-- Column -->
+                        <div class="card card-inverse card-success">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="m-r-20 align-self-center">
+                                        <h1 class="text-white"><i class="icon-cloud-download"></i></h1>
+                                    </div>
+                                    <div>
+                                        <h3 class="card-title">Download count</h3>
+                                        <h6 class="card-subtitle">March 2017</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 align-self-center">
+                                        <h2 class="text-white">35487</h2>
+                                    </div>
+                                    <div class="col-8  text-right">
+                                        <div class="spark-count" style="height:120px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Column -->
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-7 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex no-block">
+                                    <h4 class="card-title">Products Availability</h4>
+                                    <div class="ml-auto">
+                                        <select class="custom-select">
+                                            <option selected="">Electronics</option>
+                                            <option value="1">Kitchen</option>
+                                            <option value="2">Crocory</option>
+                                            <option value="3">Wooden</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <h6 class="card-subtitle">March 2017</h6>
+                                <div class="table-responsive">
+                                    <table class="table stylish-table">
+                                        <thead>
+                                            <tr>
+                                                <th style="width:90px;">Product</th>
+                                                <th>Description</th>
+                                                <th>Quantity</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="round"><i class="ti-shopping-cart"></i></span></td>
+                                                <td>
+                                                    <h6><a href="javascript:void(0)" class="link">Apple iPhone 6 Space
+                                                            Grey, 16 GB</a></h6><small class="text-muted">Product id :
+                                                        MI5457 </small>
+                                                </td>
+                                                <td>
+                                                    <h5>357</h5>
+                                                </td>
+                                                <td>
+                                                    <h5>$435</h5>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="round bg-success"><i class="ti-shopping-cart"></i></span></td>
+                                                <td>
+                                                    <h6><a href="javascript:void(0)" class="link">Fossil Marshall For
+                                                            Men Black watch</a></h6><small class="text-muted">Product
+                                                        id : MI5457 </small>
+                                                </td>
+                                                <td>
+                                                    <h5>357</h5>
+                                                </td>
+                                                <td>
+                                                    <h5>$435</h5>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="round bg-danger"><i class="ti-shopping-cart"></i></span></td>
+                                                <td>
+                                                    <h6><a href="javascript:void(0)" class="link">Sony Bravia 80cm - 32
+                                                            HD Ready LED TV</a></h6><small class="text-muted">Product
+                                                        id : MI5457 </small>
+                                                </td>
+                                                <td>
+                                                    <h5>357</h5>
+                                                </td>
+                                                <td>
+                                                    <h5>$435</h5>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="round bg-primary"><i class="ti-shopping-cart"></i></span></td>
+                                                <td>
+                                                    <h6><a href="javascript:void(0)" class="link">Panasonic P75
+                                                            Champagne Gold, 8 GB</a></h6><small class="text-muted">Product
+                                                        id : MI5457 </small>
+                                                </td>
+                                                <td>
+                                                    <h5>357</h5>
+                                                </td>
+                                                <td>
+                                                    <h5>$435</h5>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-lg-5 col-md-12">
+                        <div class="card card-body">
+                            <h3 class="card-title">Notification</h3>
+                            <div class="message-box">
+                                <div class="message-widget m-t-20">
+                                    <!-- Message -->
+                                    <a href="#">
+                                        <div class="user-img"><span class="round bg-primary"><i class="mdi mdi-email"></i></span></div>
+                                        <div class="mail-contnet">
+                                            <h5>You have 3 new messages</h5> <span class="mail-desc">Daniel Kristeen,
+                                                Hanna Giover, Jeffry Brown</span> <span class="time">9:30 AM</span>
+                                        </div>
+                                    </a>
+                                    <!-- Message -->
+                                    <a href="#">
+                                        <div class="user-img"><span class="round bg-danger"><i class="mdi mdi-earth"></i></span></div>
+                                        <div class="mail-contnet">
+                                            <h5>Newsfeed available </h5> <span class="mail-desc">Todays headlines :
+                                                Breakdancing Grandma Proves ..</span> <span class="time">9:10 AM</span>
+                                        </div>
+                                    </a>
+                                    <!-- Message -->
+                                    <a href="#">
+                                        <div class="user-img"> <span class="round bg-success"><i class="mdi mdi-currency-usd"></i></span></div>
+                                        <div class="mail-contnet">
+                                            <h5>2 Invoices to pay</h5> <span class="mail-desc">$3500 from Krishnan,
+                                                $2000 from Akhil</span> <span class="time">9:08 AM</span>
+                                        </div>
+                                    </a>
+                                    <!-- Message -->
+                                    <a href="#">
+                                        <div class="user-img"><span class="round"><i class="mdi mdi-comment-check-outline"></i></span></div>
+                                        <div class="mail-contnet">
+                                            <h5>15 New comments</h5> <span class="mail-desc">Jhonny : Hey this stuff is
+                                                awesome and how can i ..</span> <span class="time">9:02 AM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="card">
+                            <div class="row">
+                                <!-- Column -->
+                                <div class="col-lg-6 col-xlg-3 col-md-6">
+                                    <div class="card-body">
+                                        <h3 class="card-title m-b-30">Reviews</h3>
+                                        <span class="m-t-40 display-6">31560</span>
+                                        <h6 class="card-subtitle m-b-30">April the product got 234 reviews</h6>
+                                        <a href="javascript:void(0)" class="m-r-10"><img src="assets/images/users/1.jpg"
+                                                alt="user" class="img-circle" width="50" /></a>
+                                        <a href="javascript:void(0)" class="m-r-10"><img src="assets/images/users/2.jpg"
+                                                alt="user" class="img-circle" width="50" /></a>
+                                        <a href="javascript:void(0)" class="m-r-10"><img src="assets/images/users/3.jpg"
+                                                alt="user" class="img-circle" width="50" /></a>
+                                        <a href="javascript:void(0)" class="m-r-10"><img src="assets/images/users/4.jpg"
+                                                alt="user" class="img-circle" width="50" /></a>
+                                        <div class="clearfix"></div>
+                                        <button type="button" class="btn btn-success m-t-40">Read reviews</button>
+                                    </div>
+                                </div>
+                                <!-- Column -->
+                                <div class="col-lg-6 col-xlg-9 col-md-6 b-l p-l-0">
+                                    <ul class="product-review">
+                                        <li>
+                                            <span class="text-muted display-5"><i class="mdi mdi-emoticon-cool"></i></span>
+                                            <div class="dl m-l-10">
+                                                <h3 class="card-title">Positive Reviews</h3>
+                                                <h6 class="card-subtitle">25547 Reviews</h6>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-success" role="progressbar" style="width: 65%; height:6px;"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="text-muted display-5"><i class="mdi mdi-emoticon-sad"></i></span>
+                                            <div class="dl m-l-10">
+                                                <h3 class="card-title">Negative Reviews</h3>
+                                                <h6 class="card-subtitle">5478 Reviews</h6>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 15%; height:6px;"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="text-muted display-5"><i class="mdi mdi-emoticon-neutral"></i></span>
+                                            <div class="dl m-l-10">
+                                                <h3 class="card-title">Neutral Reviews</h3>
+                                                <h6 class="card-subtitle">457 Reviews</h6>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar bg-primary" role="progressbar" style="width: 35%; height:6px;"
+                                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Column -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Our Visitors</h3>
+                                <h6 class="card-subtitle">Different Devices Used to Visit</h6>
+                                <div id="visitor" style="height: 290px; width: 100%; max-height: 290px; position: relative;"
+                                    class="c3"><svg style="overflow: hidden;" width="472.33331298828125" height="290">
+                                        <defs>
+                                            <clipPath id="c3-1540527717189-clip">
+                                                <rect width="472.33331298828125" height="266"></rect>
+                                            </clipPath>
+                                            <clipPath id="c3-1540527717189-clip-xaxis">
+                                                <rect x="-31" y="-20" width="534.3333129882812" height="40"></rect>
+                                            </clipPath>
+                                            <clipPath id="c3-1540527717189-clip-yaxis">
+                                                <rect x="-29" y="-4" width="20" height="290"></rect>
+                                            </clipPath>
+                                            <clipPath id="c3-1540527717189-clip-grid">
+                                                <rect width="472.33331298828125" height="266"></rect>
+                                            </clipPath>
+                                            <clipPath id="c3-1540527717189-clip-subchart">
+                                                <rect width="472.33331298828125"></rect>
+                                            </clipPath>
+                                        </defs>
+                                        <g transform="translate(0.5,4.5)"><text class="c3-text c3-empty" text-anchor="middle"
+                                                dominant-baseline="middle" x="236.16665649414062" y="133" style="opacity: 0;"></text>
+                                            <rect class="c3-zoom-rect" width="472.33331298828125" height="266" style="opacity: 0;"></rect>
+                                            <g clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip)"
+                                                class="c3-regions" style="visibility: hidden;"></g>
+                                            <g clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip-grid)"
+                                                class="c3-grid" style="visibility: hidden;">
+                                                <g class="c3-xgrid-focus">
+                                                    <line class="c3-xgrid-focus" x1="-10" x2="-10" y1="0" y2="266"
+                                                        style="visibility: hidden;"></line>
+                                                </g>
+                                            </g>
+                                            <g clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip)"
+                                                class="c3-chart">
+                                                <g class="c3-event-rects c3-event-rects-single" style="fill-opacity: 0;">
+                                                    <rect class=" c3-event-rect c3-event-rect-0" x="0.833343505859375"
+                                                        y="0" width="472.33331298828125" height="266"></rect>
+                                                </g>
+                                                <g class="c3-chart-bars">
+                                                    <g class="c3-chart-bar c3-target c3-target-Other" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-shapes c3-shapes-Other c3-bars c3-bars-Other"
+                                                            style="cursor: pointer;"></g>
+                                                    </g>
+                                                    <g class="c3-chart-bar c3-target c3-target-Desktop" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-shapes c3-shapes-Desktop c3-bars c3-bars-Desktop"
+                                                            style="cursor: pointer;"></g>
+                                                    </g>
+                                                    <g class="c3-chart-bar c3-target c3-target-Tablet" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-shapes c3-shapes-Tablet c3-bars c3-bars-Tablet"
+                                                            style="cursor: pointer;"></g>
+                                                    </g>
+                                                    <g class="c3-chart-bar c3-target c3-target-Mobile" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-shapes c3-shapes-Mobile c3-bars c3-bars-Mobile"
+                                                            style="cursor: pointer;"></g>
+                                                    </g>
+                                                </g>
+                                                <g class="c3-chart-lines">
+                                                    <g class="c3-chart-line c3-target c3-target-Other" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-shapes c3-shapes-Other c3-lines c3-lines-Other"></g>
+                                                        <g class=" c3-shapes c3-shapes-Other c3-areas c3-areas-Other"></g>
+                                                        <g class=" c3-selected-circles c3-selected-circles-Other"></g>
+                                                        <g class=" c3-shapes c3-shapes-Other c3-circles c3-circles-Other"
+                                                            style="cursor: pointer;"></g>
+                                                    </g>
+                                                    <g class="c3-chart-line c3-target c3-target-Desktop" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-shapes c3-shapes-Desktop c3-lines c3-lines-Desktop"></g>
+                                                        <g class=" c3-shapes c3-shapes-Desktop c3-areas c3-areas-Desktop"></g>
+                                                        <g class=" c3-selected-circles c3-selected-circles-Desktop"></g>
+                                                        <g class=" c3-shapes c3-shapes-Desktop c3-circles c3-circles-Desktop"
+                                                            style="cursor: pointer;"></g>
+                                                    </g>
+                                                    <g class="c3-chart-line c3-target c3-target-Tablet" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-shapes c3-shapes-Tablet c3-lines c3-lines-Tablet"></g>
+                                                        <g class=" c3-shapes c3-shapes-Tablet c3-areas c3-areas-Tablet"></g>
+                                                        <g class=" c3-selected-circles c3-selected-circles-Tablet"></g>
+                                                        <g class=" c3-shapes c3-shapes-Tablet c3-circles c3-circles-Tablet"
+                                                            style="cursor: pointer;"></g>
+                                                    </g>
+                                                    <g class="c3-chart-line c3-target c3-target-Mobile" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-shapes c3-shapes-Mobile c3-lines c3-lines-Mobile"></g>
+                                                        <g class=" c3-shapes c3-shapes-Mobile c3-areas c3-areas-Mobile"></g>
+                                                        <g class=" c3-selected-circles c3-selected-circles-Mobile"></g>
+                                                        <g class=" c3-shapes c3-shapes-Mobile c3-circles c3-circles-Mobile"
+                                                            style="cursor: pointer;"></g>
+                                                    </g>
+                                                </g>
+                                                <g class="c3-chart-arcs" transform="translate(236.16665649414062,128)"><text
+                                                        class="c3-chart-arcs-title" style="text-anchor: middle; opacity: 1;">Our
+                                                        visitor</text>
+                                                    <g class="c3-chart-arc c3-target c3-target-Other">
+                                                        <g class=" c3-shapes c3-shapes-Other c3-arcs c3-arcs-Other">
+                                                            <path class=" c3-shape c3-shape c3-arc c3-arc-Other" style="fill: rgb(236, 239, 241); cursor: pointer; opacity: 1;"
+                                                                transform="" d="M-113.69797511054642,43.11995426437235A121.6,121.6 0 0,1 -56.51033772052232,-107.67145271943028L-47.21587427964694,-89.96233220636609A101.6,101.6 0 0,0 -94.99765025683813,36.02785652352164Z"></path>
+                                                        </g><text dy=".35em" style="opacity: 1; text-anchor: middle; pointer-events: none;"
+                                                            class="" transform="translate(-90.95838008843717,-34.49596341149787)"></text>
+                                                    </g>
+                                                    <g class="c3-chart-arc c3-target c3-target-Desktop">
+                                                        <g class=" c3-shapes c3-shapes-Desktop c3-arcs c3-arcs-Desktop">
+                                                            <path class=" c3-shape c3-shape c3-arc c3-arc-Desktop"
+                                                                style="fill: rgb(116, 90, 242); cursor: pointer; opacity: 1;"
+                                                                transform="" d="M-56.51033772052232,-107.67145271943028A121.6,121.6 0 0,1 -1.3034005345198293e-13,-121.6L-1.0890254466053837e-13,-101.6A101.6,101.6 0 0,0 -47.21587427964694,-89.96233220636609Z"></path>
+                                                        </g><text dy=".35em" style="opacity: 1; text-anchor: middle; pointer-events: none;"
+                                                            class="" transform="translate(-23.280627821893702,-94.45321999920633)"></text>
+                                                    </g>
+                                                    <g class="c3-chart-arc c3-target c3-target-Tablet">
+                                                        <g class=" c3-shapes c3-shapes-Tablet c3-arcs c3-arcs-Tablet">
+                                                            <path class=" c3-shape c3-shape c3-arc c3-arc-Tablet" style="fill: rgb(38, 198, 218); cursor: pointer; opacity: 1;"
+                                                                transform="" d="M80.63571524208072,91.01890697760587A121.6,121.6 0 0,1 -113.69797511054642,43.11995426437235L-94.99765025683813,36.02785652352164A101.6,101.6 0 0,0 67.37326207726481,76.04869201418384Z"></path>
+                                                        </g><text dy=".35em" style="opacity: 1; text-anchor: middle; pointer-events: none;"
+                                                            class="" transform="translate(-23.280627821893592,94.45321999920634)"></text>
+                                                    </g>
+                                                    <g class="c3-chart-arc c3-target c3-target-Mobile">
+                                                        <g class=" c3-shapes c3-shapes-Mobile c3-arcs c3-arcs-Mobile">
+                                                            <path class=" c3-shape c3-shape c3-arc c3-arc-Mobile" style="fill: rgb(30, 136, 229); cursor: pointer; opacity: 1;"
+                                                                transform="" d="M7.445852538815907e-15,-121.6A121.6,121.6 0 0,1 80.63571524208072,91.01890697760587L67.37326207726481,76.04869201418384A101.6,101.6 0 0,0 6.221205739668554e-15,-101.6Z"></path>
+                                                        </g><text dy=".35em" style="opacity: 1; text-anchor: middle; pointer-events: none;"
+                                                            class="" transform="translate(90.95838008843715,-34.495963411497875)"></text>
+                                                    </g>
+                                                </g>
+                                                <g class="c3-chart-texts">
+                                                    <g class="c3-chart-text c3-target c3-target-Other" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-texts c3-texts-Other"></g>
+                                                    </g>
+                                                    <g class="c3-chart-text c3-target c3-target-Desktop" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-texts c3-texts-Desktop"></g>
+                                                    </g>
+                                                    <g class="c3-chart-text c3-target c3-target-Tablet" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-texts c3-texts-Tablet"></g>
+                                                    </g>
+                                                    <g class="c3-chart-text c3-target c3-target-Mobile" style="opacity: 1; pointer-events: none;">
+                                                        <g class=" c3-texts c3-texts-Mobile"></g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <g clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip-grid)"
+                                                class="c3-grid c3-grid-lines">
+                                                <g class="c3-xgrid-lines"></g>
+                                                <g class="c3-ygrid-lines"></g>
+                                            </g>
+                                            <g class="c3-axis c3-axis-x" clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip-xaxis)"
+                                                transform="translate(0,266)" style="visibility: visible; opacity: 0;"><text
+                                                    class="c3-axis-x-label" transform="" style="text-anchor: end;" x="472.33331298828125"
+                                                    dx="-0.5em" dy="-0.5em"></text>
+                                                <g class="tick" style="opacity: 1;" transform="translate(237, 0)">
+                                                    <line y2="6" x1="0" x2="0"></line><text y="9" x="0" style="text-anchor: middle; display: block;"
+                                                        transform="">
+                                                        <tspan x="0" dy=".71em" dx="0">0</tspan>
+                                                    </text>
+                                                </g>
+                                                <path class="domain" d="M0,6V0H472.33331298828125V6"></path>
+                                            </g>
+                                            <g class="c3-axis c3-axis-y" clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip-yaxis)"
+                                                transform="translate(0,0)" style="visibility: visible; opacity: 0;"><text
+                                                    class="c3-axis-y-label" transform="rotate(-90)" style="text-anchor: end;"
+                                                    x="0" dx="-0.5em" dy="1.2em"></text>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,244)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">10</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,217)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">15</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,189)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">20</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,162)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">25</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,134)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">30</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,106)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">35</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,79)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">40</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,51)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">45</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,24)">
+                                                    <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                                        <tspan x="-9" dy="3">50</tspan>
+                                                    </text>
+                                                </g>
+                                                <path class="domain" d="M-6,1H0V266H-6"></path>
+                                            </g>
+                                            <g class="c3-axis c3-axis-y2" transform="translate(472.33331298828125,0)"
+                                                style="visibility: hidden; opacity: 0;"><text class="c3-axis-y2-label"
+                                                    transform="rotate(-90)" style="text-anchor: end;" x="0" dx="-0.5em"
+                                                    dy="-0.5em"></text>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,266)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,240)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.1</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,213)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.2</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,187)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.3</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,160)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.4</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,134)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.5</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,107)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.6</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,81)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.7</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,54)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.8</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,28)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">0.9</tspan>
+                                                    </text>
+                                                </g>
+                                                <g class="tick" style="opacity: 1;" transform="translate(0,1)">
+                                                    <line x2="6" y2="0"></line><text x="9" y="0" style="text-anchor: start;">
+                                                        <tspan x="9" dy="3">1</tspan>
+                                                    </text>
+                                                </g>
+                                                <path class="domain" d="M6,1H0V266H6"></path>
+                                            </g>
+                                        </g>
+                                        <g transform="translate(0.5,290.5)" style="visibility: hidden;">
+                                            <g clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip-subchart)"
+                                                class="c3-chart">
+                                                <g class="c3-chart-bars"></g>
+                                                <g class="c3-chart-lines"></g>
+                                            </g>
+                                            <g clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip)"
+                                                class="c3-brush" style="pointer-events: all;">
+                                                <rect class="background" style="visibility: hidden; cursor: crosshair;"
+                                                    x="0" width="472.33331298828125"></rect>
+                                                <rect class="extent" style="cursor: move;" x="0" width="0"></rect>
+                                                <g class="resize e" style="cursor: ew-resize; display: none;" transform="translate(0,0)">
+                                                    <rect x="-3" width="6" height="6" style="visibility: hidden;"></rect>
+                                                </g>
+                                                <g class="resize w" style="cursor: ew-resize; display: none;" transform="translate(0,0)">
+                                                    <rect x="-3" width="6" height="6" style="visibility: hidden;"></rect>
+                                                </g>
+                                            </g>
+                                            <g class="c3-axis-x" transform="translate(0,0)" clip-path="url(https://juanworldit.github.io/AdminPortal/dashboard.html#c3-1540527717189-clip-xaxis)"
+                                                style="visibility: hidden; opacity: 0;">
+                                                <g class="tick" style="opacity: 1;" transform="translate(237, 0)">
+                                                    <line y2="6" x1="0" x2="0"></line><text y="9" x="0" style="text-anchor: middle; display: block;"
+                                                        transform="">
+                                                        <tspan x="0" dy=".71em" dx="0">0</tspan>
+                                                    </text>
+                                                </g>
+                                                <path class="domain" d="M0,6V0H472.33331298828125V6"></path>
+                                            </g>
+                                        </g>
+                                        <g transform="translate(0,270)">
+                                            <g class="c3-legend-item c3-legend-item-Other" style="visibility: hidden; cursor: pointer; opacity: 1;"><text
+                                                    style="pointer-events: none;" x="14" y="9">Other</text>
+                                                <rect class="c3-legend-item-event" style="fill-opacity: 0;" x="0" y="-5"
+                                                    width="0" height="0"></rect>
+                                                <line class="c3-legend-item-tile" style="stroke: rgb(236, 239, 241); pointer-events: none;"
+                                                    x1="-2" y1="4" x2="8" y2="4" stroke-width="10"></line>
+                                            </g>
+                                            <g class="c3-legend-item c3-legend-item-Desktop" style="visibility: hidden; cursor: pointer; opacity: 1;"><text
+                                                    style="pointer-events: none;" x="14" y="9">Desktop</text>
+                                                <rect class="c3-legend-item-event" style="fill-opacity: 0;" x="0" y="-5"
+                                                    width="0" height="0"></rect>
+                                                <line class="c3-legend-item-tile" style="stroke: rgb(116, 90, 242); pointer-events: none;"
+                                                    x1="-2" y1="4" x2="8" y2="4" stroke-width="10"></line>
+                                            </g>
+                                            <g class="c3-legend-item c3-legend-item-Tablet" style="visibility: hidden; cursor: pointer; opacity: 1;"><text
+                                                    style="pointer-events: none;" x="14" y="9">Tablet</text>
+                                                <rect class="c3-legend-item-event" style="fill-opacity: 0;" x="0" y="-5"
+                                                    width="0" height="0"></rect>
+                                                <line class="c3-legend-item-tile" style="stroke: rgb(38, 198, 218); pointer-events: none;"
+                                                    x1="-2" y1="4" x2="8" y2="4" stroke-width="10"></line>
+                                            </g>
+                                            <g class="c3-legend-item c3-legend-item-Mobile" style="visibility: hidden; cursor: pointer; opacity: 1;"><text
+                                                    style="pointer-events: none;" x="14" y="9">Mobile</text>
+                                                <rect class="c3-legend-item-event" style="fill-opacity: 0;" x="0" y="-5"
+                                                    width="0" height="0"></rect>
+                                                <line class="c3-legend-item-tile" style="stroke: rgb(30, 136, 229); pointer-events: none;"
+                                                    x1="-2" y1="4" x2="8" y2="4" stroke-width="10"></line>
+                                            </g>
+                                        </g><text class="c3-title" x="236.16665649414062" y="0"></text>
+                                    </svg>
+                                    <div class="c3-tooltip-container" style="position: absolute; pointer-events: none; display: none; top: 58.5px; left: 153.833px;">
+                                        <table class="c3-tooltip">
+                                            <tbody>
+                                                <tr class="c3-tooltip-name--Other">
+                                                    <td class="name"><span style="background-color:#eceff1"></span>Other</td>
+                                                    <td class="value">23.1%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <hr class="m-t-0 m-b-0">
+                            </div>
+                            <div class="card-body text-center ">
+                                <ul class="list-inline m-b-0">
+                                    <li>
+                                        <h6 class="text-muted text-info"><i class="fa fa-circle font-10 m-r-10 "></i>Mobile</h6>
+                                    </li>
+                                    <li>
+                                        <h6 class="text-muted  text-primary"><i class="fa fa-circle font-10 m-r-10"></i>Desktop</h6>
+                                    </li>
+                                    <li>
+                                        <h6 class="text-muted  text-success"><i class="fa fa-circle font-10 m-r-10"></i>Tablet</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-8 col-xlg-9 col-md-7">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Experiances</h3>
+                                <div class="table-responsive">
+                                    <table class="table m-b-0  m-t-30 no-border">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:90px;"><img src="assets/images/browser/photoshop.jpg"
+                                                        alt="photoshop" /></td>
+                                                <td style="width:200px;">
+                                                    <h4 class="card-title">Photoshop</h4>
+                                                    <h6 class="card-subtitle">This is a sample text</h6>
+                                                </td>
+                                                <td class="vm">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 65%; height:6px;"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:90px;"><img src="assets/images/browser/sketch.jpg" alt="sketch" /></td>
+                                                <td style="width:200px;">
+                                                    <h4 class="card-title">Sketch</h4>
+                                                    <h6 class="card-subtitle">This is a sample text</h6>
+                                                </td>
+                                                <td class="vm">
+                                                    <div class="progress">
+                                                        <div class="progress-bar bg-success" role="progressbar" style="width: 45%; height:6px;"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div>
+                                <hr>
+                            </div>
+                            <div class="card-body m-b-20 m-t-10">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h1>5486</h1>
+                                        <h6 class="text-muted">Projects</h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <h1>987</h1>
+                                        <h6 class="text-muted">Winning Entries</h6>
+                                    </div>
+                                    <div class="col-4 align-self-center text-right">
+                                        <button type="button" class="btn btn-success">Hire me</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-lg-4 col-xlg-3 col-md-5">
+                        <div class="card"> <img class="card-img" src="assets/images/background/socialbg.jpg" alt="Card image">
+                            <div class="card-img-overlay card-inverse social-profile d-flex ">
+                                <div class="align-self-center"> <img src="assets/images/users/1.jpg" alt="user" class="img-circle"
+                                        width="100">
+                                    <h4 class="card-title">James Anderson</h4>
+                                    <h6 class="card-subtitle">@jamesandre</h6>
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                        do eiusmod tempor incididunt </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-lg-8 col-xlg-9 col-md-7">
+                        <div class="card">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs profile-tab" role="tablist">
+                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Timeline</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Profile</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#settings" role="tab">Settings</a>
+                                </li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="home" role="tabpanel">
+                                    <div class="card-body">
+                                        <div class="profiletimeline">
+                                            <div class="sl-item">
+                                                <div class="sl-left"> <img src="assets/images/users/1.jpg" alt="user"
+                                                        class="img-circle" /> </div>
+                                                <div class="sl-right">
+                                                    <div><a href="#" class="link">John Doe</a> <span class="sl-date">5
+                                                            minutes ago</span>
+                                                        <p>assign a new task <a href="#"> Design weblayout</a></p>
+                                                        <div class="row">
+                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="assets/images/big/img1.jpg"
+                                                                    alt="user" class="img-responsive radius" /></div>
+                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="assets/images/big/img2.jpg"
+                                                                    alt="user" class="img-responsive radius" /></div>
+                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="assets/images/big/img3.jpg"
+                                                                    alt="user" class="img-responsive radius" /></div>
+                                                            <div class="col-lg-3 col-md-6 m-b-20"><img src="assets/images/big/img4.jpg"
+                                                                    alt="user" class="img-responsive radius" /></div>
+                                                        </div>
+                                                        <div class="like-comm"> <a href="javascript:void(0)" class="link m-r-10">2
+                                                                comment</a> <a href="javascript:void(0)" class="link m-r-10"><i
+                                                                    class="fa fa-heart text-danger"></i> 5 Love</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="sl-item">
+                                                <div class="sl-left"> <img src="assets/images/users/2.jpg" alt="user"
+                                                        class="img-circle" /> </div>
+                                                <div class="sl-right">
+                                                    <div> <a href="#" class="link">John Doe</a> <span class="sl-date">5
+                                                            minutes ago</span>
+                                                        <div class="m-t-20 row">
+                                                            <div class="col-md-3 col-xs-12"><img src="assets/images/big/img1.jpg"
+                                                                    alt="user" class="img-responsive radius" /></div>
+                                                            <div class="col-md-9 col-xs-12">
+                                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                    elit. Integer nec odio. Praesent libero. Sed cursus
+                                                                    ante dapibus diam. </p> <a href="#" class="btn btn-success">
+                                                                    Design weblayout</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="like-comm m-t-20"> <a href="javascript:void(0)"
+                                                                class="link m-r-10">2 comment</a> <a href="javascript:void(0)"
+                                                                class="link m-r-10"><i class="fa fa-heart text-danger"></i>
+                                                                5 Love</a> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="sl-item">
+                                                <div class="sl-left"> <img src="assets/images/users/3.jpg" alt="user"
+                                                        class="img-circle" /> </div>
+                                                <div class="sl-right">
+                                                    <div><a href="#" class="link">John Doe</a> <span class="sl-date">5
+                                                            minutes ago</span>
+                                                        <p class="m-t-10"> Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit. Integer nec odio. Praesent libero. Sed
+                                                            cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh
+                                                            elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+                                                            Fusce nec tellus sed augue semper </p>
+                                                    </div>
+                                                    <div class="like-comm m-t-20"> <a href="javascript:void(0)" class="link m-r-10">2
+                                                            comment</a> <a href="javascript:void(0)" class="link m-r-10"><i
+                                                                class="fa fa-heart text-danger"></i> 5 Love</a> </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="sl-item">
+                                                <div class="sl-left"> <img src="assets/images/users/4.jpg" alt="user"
+                                                        class="img-circle" /> </div>
+                                                <div class="sl-right">
+                                                    <div><a href="#" class="link">John Doe</a> <span class="sl-date">5
+                                                            minutes ago</span>
+                                                        <blockquote class="m-t-10">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                            sed do eiusmod tempor incididunt
+                                                        </blockquote>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--second tab-->
+                                <div class="tab-pane" id="profile" role="tabpanel">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-3 col-xs-6 b-r"> <strong>Full Name</strong>
+                                                <br>
+                                                <p class="text-muted">Johnathan Deo</p>
+                                            </div>
+                                            <div class="col-md-3 col-xs-6 b-r"> <strong>Mobile</strong>
+                                                <br>
+                                                <p class="text-muted">(123) 456 7890</p>
+                                            </div>
+                                            <div class="col-md-3 col-xs-6 b-r"> <strong>Email</strong>
+                                                <br>
+                                                <p class="text-muted">johnathan@admin.com</p>
+                                            </div>
+                                            <div class="col-md-3 col-xs-6"> <strong>Location</strong>
+                                                <br>
+                                                <p class="text-muted">London</p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <p class="m-t-30">Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+                                            arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                                            Nullam dictum felis eu pede mollis pretium. Integer tincidunt.Cras dapibus.
+                                            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
+                                            ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type specimen book. It has survived not only five centuries </p>
+                                        <p>It was popularised in the 1960s with the release of Letraset sheets
+                                            containing Lorem Ipsum passages, and more recently with desktop publishing
+                                            software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <h4 class="font-medium m-t-30">Skill Set</h4>
+                                        <hr>
+                                        <h5 class="m-t-30">Wordpress <span class="pull-right">80%</span></h5>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:80%; height:6px;">
+                                                <span class="sr-only">50% Complete</span> </div>
+                                        </div>
+                                        <h5 class="m-t-30">HTML 5 <span class="pull-right">90%</span></h5>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:90%; height:6px;">
+                                                <span class="sr-only">50% Complete</span> </div>
+                                        </div>
+                                        <h5 class="m-t-30">jQuery <span class="pull-right">50%</span></h5>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:50%; height:6px;">
+                                                <span class="sr-only">50% Complete</span> </div>
+                                        </div>
+                                        <h5 class="m-t-30">Photoshop <span class="pull-right">70%</span></h5>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:70%; height:6px;">
+                                                <span class="sr-only">50% Complete</span> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="settings" role="tabpanel">
+                                    <div class="card-body">
+                                        <form class="form-horizontal form-material">
+                                            <div class="form-group">
+                                                <label class="col-md-12">Full Name</label>
+                                                <div class="col-md-12">
+                                                    <input type="text" placeholder="Johnathan Doe" class="form-control form-control-line">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="example-email" class="col-md-12">Email</label>
+                                                <div class="col-md-12">
+                                                    <input type="email" placeholder="johnathan@admin.com" class="form-control form-control-line"
+                                                        name="example-email" id="example-email">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-12">Password</label>
+                                                <div class="col-md-12">
+                                                    <input type="password" value="password" class="form-control form-control-line">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-12">Phone No</label>
+                                                <div class="col-md-12">
+                                                    <input type="text" placeholder="123 456 7890" class="form-control form-control-line">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-12">Message</label>
+                                                <div class="col-md-12">
+                                                    <textarea rows="5" class="form-control form-control-line"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-sm-12">Select Country</label>
+                                                <div class="col-sm-12">
+                                                    <select class="form-control form-control-line">
+                                                        <option>London</option>
+                                                        <option>India</option>
+                                                        <option>Usa</option>
+                                                        <option>Canada</option>
+                                                        <option>Thailand</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <button class="btn btn-success">Update Profile</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <!-- Column -->
+                    <div class="col-lg-4 col-xlg-3 col-md-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="text-center m-t-30"> <img src="assets/images/users/5.jpg" alt="img" class="img-circle"
+                                        width="150" />
+                                    <h4 class="card-title m-t-10">Hanna Gover</h4>
+                                    <h6 class="card-subtitle">Accoubts Manager Amix corp</h6>
+                                    <div class="row text-center justify-content-md-center">
+                                        <div class="col-4"><a href="javascript:void(0)" class="link"><i class="icon-people"></i>
+                                                <span class="font-medium">254</span></a></div>
+                                        <div class="col-4"><a href="javascript:void(0)" class="link"><i class="icon-picture"></i>
+                                                <span class="font-medium">54</span></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <hr>
+                            </div>
+                            <div class="card-body"> <small class="text-muted">Email address </small>
+                                <h6>hannagover@gmail.com</h6> <small class="text-muted p-t-30 db">Phone</small>
+                                <h6>+91 654 784 547</h6> <small class="text-muted p-t-30 db">Address</small>
+                                <h6>71 Pilgrim Avenue Chevy Chase, MD 20815</h6>
+                                <div class="map-box">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470029.1604841957!2d72.29955005258641!3d23.019996818380896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C+Gujarat!5e0!3m2!1sen!2sin!4v1493204785508"
+                                        height="150" class="w-100" style="border:0" allowfullscreen></iframe>
+                                </div> <small class="text-muted p-t-30 db">Social Profile</small>
+                                <br />
+                                <button class="btn btn-circle btn-secondary"><i class="fab fa-facebook-f"></i></button>
+                                <button class="btn btn-circle btn-secondary"><i class="fab fa-twitter"></i></button>
+                                <button class="btn btn-circle btn-secondary"><i class="fab fa-youtube"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+                <!-- Row -->
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                <div class="right-sidebar">
+                    <div class="slimscrollright">
+                        <div class="rpanel-title"> Service Panel <span><i class="ti-close right-side-toggle"></i></span>
+                        </div>
+                        <div class="r-panel-body">
+                            <ul id="themecolors" class="m-t-20">
+                                <li><b>With Light sidebar</b></li>
+                                <li><a href="javascript:void(0)" data-theme="default" class="default-theme">1</a></li>
+                                <li><a href="javascript:void(0)" data-theme="green" class="green-theme">2</a></li>
+                                <li><a href="javascript:void(0)" data-theme="red" class="red-theme">3</a></li>
+                                <li><a href="javascript:void(0)" data-theme="blue" class="blue-theme working">4</a></li>
+                                <li><a href="javascript:void(0)" data-theme="purple" class="purple-theme">5</a></li>
+                                <li><a href="javascript:void(0)" data-theme="megna" class="megna-theme">6</a></li>
+                                <li class="d-block m-t-30"><b>With Dark sidebar</b></li>
+                                <li><a href="javascript:void(0)" data-theme="default-dark" class="default-dark-theme">7</a></li>
+                                <li><a href="javascript:void(0)" data-theme="green-dark" class="green-dark-theme">8</a></li>
+                                <li><a href="javascript:void(0)" data-theme="red-dark" class="red-dark-theme">9</a></li>
+                                <li><a href="javascript:void(0)" data-theme="blue-dark" class="blue-dark-theme">10</a></li>
+                                <li><a href="javascript:void(0)" data-theme="purple-dark" class="purple-dark-theme">11</a></li>
+                                <li><a href="javascript:void(0)" data-theme="megna-dark" class="megna-dark-theme ">12</a></li>
+                            </ul>
+                            <ul class="m-t-20 chatonline">
+                                <li><b>Chat option</b></li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="assets/images/users/1.jpg" alt="user-img"
+                                            class="img-circle"> <span>Varun Dhavan <small class="text-success">online</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="assets/images/users/2.jpg" alt="user-img"
+                                            class="img-circle"> <span>Genelia Deshmukh <small class="text-warning">Away</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="assets/images/users/3.jpg" alt="user-img"
+                                            class="img-circle"> <span>Ritesh Deshmukh <small class="text-danger">Busy</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="assets/images/users/4.jpg" alt="user-img"
+                                            class="img-circle"> <span>Arijit Sinh <small class="text-muted">Offline</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="assets/images/users/5.jpg" alt="user-img"
+                                            class="img-circle"> <span>Govinda Star <small class="text-success">online</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="assets/images/users/6.jpg" alt="user-img"
+                                            class="img-circle"> <span>John Abraham<small class="text-success">online</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="assets/images/users/7.jpg" alt="user-img"
+                                            class="img-circle"> <span>Hritik Roshan<small class="text-success">online</small></span></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><img src="assets/images/users/8.jpg" alt="user-img"
+                                            class="img-circle"> <span>Pwandeep rajan <small class="text-success">online</small></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer"> © 2018 Material Pro Admin by wrappixel.com </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="assets/plugins/popper/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <!-- chartist chart -->
+    <script src="assets/plugins/chartist-js/dist/chartist.min.js"></script>
+    <script src="assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+    <!--c3 JavaScript -->
+    <script src="assets/plugins/d3/d3.min.js"></script>
+    <script src="assets/plugins/c3-master/c3.min.js"></script>
+    <!-- Chart JS -->
+    <script src="js/dashboard1.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+
+
+<!-- Mirrored from wrappixel.com/demos/admin-templates/material-pro/dark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 02:28:46 GMT -->
+
+</html>
