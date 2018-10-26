@@ -1,442 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
+
+<!-- Mirrored from wrappixel.com/demos/admin-templates/material-pro/dark/pages-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 02:28:46 GMT -->
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>juanCash</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/css/header-1.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/landing.css">
-    <link rel="stylesheet" href="assets/css/login.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
-    <link rel="stylesheet" href="assets/css/sidebar-1.css">
-    <link rel="stylesheet" href="assets/css/sidebar.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/web.css">
-    <link rel="stylesheet" href="assets/css/spinners.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/home/home.css">
-    <link rel="stylesheet" href="assets/css/searchbox.css">
-
-    <script src="assets/js/Chart.bundle.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/frappe-charts@1.1.0/dist/frappe-charts.min.iife.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="css/colors/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-dark navbar-expand-lg">
-            <div class="container-fluid">
-
-                <a class="logo mr-lg-3 pr-lg-3" href="#">
-                    <img src="assets/img/Asset 5No Stroke 4x.png" style="height: 50px; width: 50px;" alt="SAJ ADV">
-                    <p class="custport" style="vertical-align: center;">ADMIN PORTAL</p>
-                </a>
-
-                <div class="navbar-tools order-lg-1">
-
-                    <div class="dropdown d-inline-block px-1 navbar-notification">
-                        <a class="d-block position-relative" href="#" data-toggle="dropdown">
-                            <img src="assets/img/messages.png">
-                            <span class="badge badge-pill badge-notification">5</span>
-                        </a>
-                        <div class="dropdown-menu">
-                            <div class="dropdown-header">Notificações</div>
-                            <a class="dropdown-item py-2 pr-3 pl-4" href="#">
-                                <span>07/02/2018 11:17 <strong>Advogado SAJ ADV</strong></span>
-                                <p>O relatório contas-pagar-receber-por-dia foi gerado com sucesso</p>
-                            </a>
-                            <a class="dropdown-item py-2 pr-3 pl-4 active" href="#">
-                                <span>07/02/2018 11:17 <strong>Advogado SAJ ADV</strong></span>
-                                <p>O relatório contas-pagar-receber-por-dia foi gerado com sucesso</p>
-                            </a>
-                            <a class="dropdown-item py-2 pr-3 pl-4" href="#">
-                                <span>07/02/2018 11:17 <strong>Advogado SAJ ADV</strong></span>
-                                <p>O relatório contas-pagar-receber-por-dia foi gerado com sucesso</p>
-                            </a>
-                            <a class="dropdown-item py-2 pr-3 pl-4" href="#">
-                                <span>07/02/2018 11:17 <strong>Advogado SAJ ADV</strong></span>
-                                <p>O relatório contas-pagar-receber-por-dia foi gerado com sucesso</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="dropdown d-inline-block px-1">
-                        <a class="d-block" href="#" data-toggle="dropdown">
-                            <img src="assets/img/config.png">
-                        </a>
-                        <div class="dropdown-menu">
-                            <div class="dropdown-header">Gerais</div>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon"></span> Área do cliente
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon navbar-icon-config"></span> Cadastros Gerais
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon navbar-icon-config"></span> Configurações de Notificação
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon navbar-icon-pencil"></span> Personalização
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon navbar-icon-reports"></span> Importação de Dados
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon navbar-icon-reports"></span> Registro de Acesso ao Sistema
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon navbar-icon-reports"></span> Relatórios
-                            </a>
-                        </div>
-                    </div>
-                    <div class="dropdown d-inline-block pl-1">
-                        <a class="d-block" href="#" data-toggle="dropdown">
-                            <img class="user-photo" src="https://sajadv.s3-sa-east-1.amazonaws.com/1/foto-pessoa-perfil/-783009143_1471629786795_1_1.png?pfdrid_c=true">
-                        </a>
-                        <div class="dropdown-menu user">
-                            <div class="dropdown-header">Advogado SAJ ADV</div>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon"></span> Meus Dados
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon"></span> Meu Plano
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon navbar-icon-key"></span> Alterar Senha
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon"></span> Área do Assinante
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon"></span> Wizzard
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <span class="navbar-icon navbar-icon-exit"></span> Sair
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.navbar-tools -->
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <!-- /.container -->
-        </nav>
-        <!-- /.navbar -->
-    </header>
-    <div id="container1" class="container1">
-        <div class="wrapper">
-            <nav id="sidebar">
-                <div class="sidebar-header">
-                    <h3>MENU</h3><strong>BS</strong></div>
-                <ul class="list-unstyled components">
-                    <li class="snav"><a href="#homeSubmenu" data-toggle="collapse"><img src="assets/ic/homeic.png">Home</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li><a href="#">Home 1</a></li>
-                            <li><a href="#">Home 2</a></li>
-                            <li><a href="#">Home 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="snav"><a href="#"><img src="assets/ic/dashboardic.png">Dashboard</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li><a href="#">Page 1</a></li>
-                            <li><a href="#">Page 2</a></li>
-                            <li><a href="#">Page 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="snav"><a href="#"><img src="assets/ic/inboxic.png">Inbox</a></li>
-                    <li class="snav"><a href="#"><img src="assets/ic/tradingic.png">Trading</a></li>
-                    <li class="snav"><a href="#"><img src="assets/ic/orderhistoryic.png">Order History</a></li>
-                    <li class="snav"><a href="#"><img src="assets/ic/blockchaincommunityic.png">Blockchain Community</a></li>
-                    <li class="snav"><a href="#"><img src="assets/ic/chatroomic.png">Chat Room</a></li>
-                    <li class="snav"><a href="#"><img src="assets/ic/calendaric.png">Calendar</a></li>
-                    <li class="snav"><a href="#"><img src="assets/ic/helpcenteric.png">Help Center</a></li>
-                    <li class="snav"><a href="#"><img src="assets/ic/settingsic.png">Settings</a></li>
-                </ul>
-            </nav>
-
-<!-- ============================================================== -->
-<!-- Contect Section -->
-<!-- ============================================================== -->
-            <div style="background-color: white;" id="contents">
-                <div id="search">
-                    <input type="text" size="40" placeholder="Search..." id="box"/>
-
-
-                    <div class="container-fluid1">
-                            <!-- ============================================================== -->
-                            <!-- Bread crumb and right sidebar toggle -->
-                            <!-- ============================================================== -->
-                            <div class="row page-titles">
-                                <div class="col-md-5 col-8 align-self-center">
-                                    <h3 class="text-themecolor m-b-0 m-t-0">Customer List</h3>
-                                </div>
-                            </div>
-                            <!-- ============================================================== -->
-                            <!-- End Bread crumb and right sidebar toggle -->
-                            <!-- ============================================================== -->
-                            <!-- ============================================================== -->
-                            <!-- Start Page Content -->
-                            <!-- ============================================================== -->
-                            <!-- .row -->
-                            <div class="row">
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/1.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/2.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/3.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/4.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/5.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/6.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/7.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/8.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/1.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/2.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/3.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                                <!-- .col -->
-                                <div class="col-md-6 col-lg-6 col-xlg-4">
-                                    <div class="card card-body">
-                                        <div class="row">
-                                            <div class="col-md-4 col-lg-3 text-center">
-                                                <a href="app-contact-detail.html"><img src="assets/img/users/4.jpg" alt="user" class="img-circle img-responsive"></a>
-                                            </div>
-                                            <div class="col-md-8 col-lg-9">
-                                                <h3 class="box-title m-b-0">Johnathan Doe</h3> <small>Tier1</small>
-                                                <address>
-                                                    795 Folsom Ave, Suite 600 San Francisco, CADGE 94107
-                                                    <br/>
-                                                    <br/>
-                                                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                                                </address>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <!-- /.row -->
-                            <!-- ============================================================== -->
-                            <!-- End PAge Content -->
-                </div>
-        </div>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <section id="wrapper">
+        <div class="login-register" style="background-image:url(assets/images/background/login-register.jpg);">
+            <div class="login-box card">
+                <div class="card-body">
+                    <form class="form-horizontal form-material" id="loginform" action="dashboard.html">
+                        <h3 class="box-title m-b-20">Sign In</h3>
+                        <div class="form-group ">
+                            <div class="col-xs-12">
+                                <input class="form-control" type="text" required="" placeholder="Username"> </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12">
+                                <input class="form-control" type="password" required="" placeholder="Password"> </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="d-flex no-block align-items-center">
+                                <div class="checkbox checkbox-primary p-t-0">
+                                    <input id="checkbox-signup" type="checkbox">
+                                    <label for="checkbox-signup"> Remember me </label>
+                                </div> 
+                                <div class="ml-auto">
+                                    <a href="javascript:void(0)" id="to-recover" class="text-muted"><i class="fa fa-lock m-r-5"></i> Forgot pwd?</a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group text-center m-t-20">
+                            <div class="col-xs-12">
+                                <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Log In</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 m-t-10 text-center">
+                                <div class="social">
+                                    <button class="btn btn-facebook" data-toggle="tooltip" title="Login with Facebook"> <i aria-hidden="true" class="fab fa-facebook-f"></i> </button>
+                                    <button class="btn btn-googleplus" data-toggle="tooltip" title="Login with Google"> <i aria-hidden="true" class="fab fa-google-plus-g"></i> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group m-b-0">
+                            <div class="col-sm-12 text-center">
+                                Don't have an account? <a href="pages-register.html" class="text-info m-l-5"><b>Sign Up</b></a>
+                            </div>
+                        </div>
+                    </form>
+                    <form class="form-horizontal" id="recoverform" action="https://wrappixel.com/demos/admin-templates/material-pro/dark/index.html">
+                        <div class="form-group ">
+                            <div class="col-xs-12">
+                                <h3>Recover Password</h3>
+                                <p class="text-muted">Enter your Email and instructions will be sent to you! </p>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <div class="col-xs-12">
+                                <input class="form-control" type="text" required="" placeholder="Email"> </div>
+                        </div>
+                        <div class="form-group text-center m-t-20">
+                            <div class="col-xs-12">
+                                <button class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="assets/plugins/popper/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    
 </body>
 
+
+<!-- Mirrored from wrappixel.com/demos/admin-templates/material-pro/dark/pages-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 02:28:48 GMT -->
 </html>
