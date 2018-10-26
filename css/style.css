@@ -103,6 +103,11 @@ a.link {
   width: 100%;
   height: auto; }
 
+.img-responsive2 {
+  display: inline-block;
+  width: 50%;
+  height: auto; }
+
 .img-rounded {
   border-radius: 4px; }
 
