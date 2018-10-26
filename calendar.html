@@ -13,15 +13,11 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
-    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Material Pro Admin Template - The Most Complete &amp; Trusted Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- chartist CSS -->
-    <link href="assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
-    <link href="assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
-    <link href="assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
-    <!--This page css - Morris CSS -->
-    <link href="assets/plugins/c3-master/c3.min.css" rel="stylesheet">
+    <!-- Calendar CSS -->
+    <link href="assets/plugins/calendar/dist/fullcalendar.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
     <!-- You can change the theme colors from here -->
@@ -32,6 +28,31 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <style type="text/css">
+        .jqstooltip {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            visibility: hidden;
+            background: rgb(0, 0, 0) transparent;
+            background-color: rgba(0, 0, 0, 0.6);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+            white-space: nowrap;
+            padding: 5px;
+            border: 1px solid white;
+            z-index: 10000;
+        }
+
+        .jqsfield {
+            color: white;
+            font: 10px arial, san serif;
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body class="fix-header fix-sidebar card-no-border">
@@ -66,11 +87,11 @@
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text --><span>
-                         <!-- dark Logo text -->
-                         <p alt="homepage" class="dark-logo" >Admin Portal</p>
-                         <!-- Light Logo text -->    
-                         <p class="light-logo" alt="homepage" >Admin Portal</p>
-                         </span>
+                            <!-- dark Logo text -->
+                            <p alt="homepage" class="dark-logo">Admin Portal</p>
+                            <!-- Light Logo text -->
+                            <p class="light-logo" alt="homepage">Admin Portal</p>
+                        </span>
                     </a>
                 </div>
                 <!-- ============================================================== -->
@@ -276,20 +297,28 @@
             <div class="scroll-sidebar">
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
+                    <!-- Sidebar List -->
                     <ul id="sidebarnav">
-                        <li> <a class="waves-effect waves-dark" href="dashboard.html" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard </span></a>
+                        <li> <a class="waves-effect waves-dark" href="dashboard.html" aria-expanded="false"><i class="mdi mdi-gauge"></i><span
+                                    class="hide-menu">Dashboard </span></a>
                         </li>
-                        <li> <a class="waves-effect waves-dark" href="customer.html" aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Customer</span></a>
+                        <li> <a class="waves-effect waves-dark" href="customer.html" aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span
+                                    class="hide-menu">Customer</span></a>
                         </li>
-                        <li><a class="waves-effect waves-dark" href="transaction-history.html" aria-expanded="false"><i class="mdi mdi-history"></i><span class="hide-menu">Transaction History</span></a>
+                        <li><a class="waves-effect waves-dark" href="transaction-history.html" aria-expanded="false"><i
+                                    class="mdi mdi-history"></i><span class="hide-menu">Transaction History</span></a>
                         </li>
-                        <li><a class="waves-effect waves-dark" href="email.html" aria-expanded="false"><i class="mdi mdi-email"></i><span class="hide-menu">Inbox</span></a>
+                        <li><a class="waves-effect waves-dark" href="email.html" aria-expanded="false"><i class="mdi mdi-email"></i><span
+                                    class="hide-menu">Inbox</span></a>
                         </li>
-                        <li><a class="waves-effect waves-dark" href="trading.html" aria-expanded="false"><i class="mdi mdi-barcode"></i><span class="hide-menu">Trading</span></a>
+                        <li><a class="waves-effect waves-dark" href="trading.html" aria-expanded="false"><i class="mdi mdi-barcode"></i><span
+                                    class="hide-menu">Trading</span></a>
                         </li>
-                        <li><a class="waves-effect waves-dark" href="chat.html" aria-expanded="false"><i class="mdi mdi-message-text-outline"></i><span class="hide-menu">Chat</span></a>
+                        <li><a class="waves-effect waves-dark" href="chat.html" aria-expanded="false"><i class="mdi mdi-message-text-outline"></i><span
+                                    class="hide-menu">Chat</span></a>
                         </li>
-                        <li><a class="waves-effect waves-dark" href="calendar.html" aria-expanded="false"><i class="mdi mdi-calendar"></i><span class="hide-menu">Calendar</span></a>
+                        <li><a class="waves-effect waves-dark" href="calendar.html" aria-expanded="false"><i class="mdi mdi-calendar"></i><span
+                                    class="hide-menu">Calendar</span></a>
                         </li>
                         <!--Divider-->
                         <li class="nav-devider"></li>
@@ -323,7 +352,7 @@
                 <!-- ============================================================== -->
                 <div class="row page-titles">
                     <div class="col-md-5 col-8 align-self-center">
-                        <h3 class="text-themecolor m-b-0 m-t-0">Transaction History</h3>
+                        <h3 class="text-themecolor m-b-0 m-t-0">Calendar</h3>
                     </div>
                     <div class="col-md-7 col-4 align-self-center">
                         <div class="d-flex m-t-10 justify-content-end">
@@ -359,85 +388,109 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-md-3">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Grid options</h4>
-                                <h6 class="card-subtitle">See how aspects of the Bootstrap grid system work across
-                                    multiple devices with a handy table. check the <a href="https://v4-alpha.getbootstrap.com/layout/grid/">official
-                                        website grid page</a></h6>
-                                <div class="table-responsive">
-                                    <table class="table table-bordered table-striped ">
-                                        <thead>
-                                            <tr>
-                                                <th>Customer Name</th>
-                                                <th class="text-center"> Tier </th>
-                                                <th class="text-center"> Date Transaction </small> </th>
-                                                <th class="text-center"> Currency </th>
-                                                <th class="text-center"> Amount </th>
-                                                <th class="text-center"> Currency </th>
-                                                <th class="text-center"> Amount </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th class="text-nowrap" scope="row">Raymart Gomez</th>
-                                                <td>Bronze</td>
-                                                <td>October 12 / 12:03:46 AM</td>
-                                                <td>Bitcoin</td>
-                                                <td>1</td>
-                                                <td>JuanCoin</td>
-                                                <td>5000</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-nowrap" scope="row">Joenel Cardinal</th>
-                                                <td>Gold</td>
-                                                <td>October 12 / 12:03:33 AM</td>
-                                                <td>Bitcoin</td>
-                                                <td>1000</td>
-                                                <td>JuanCoin</td>
-                                                <td>50000</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-nowrap" scope="row">Class prefix</th>
-                                                <td><code>.col-</code></td>
-                                                <td><code>.col-sm-</code></td>
-                                                <td><code>.col-md-</code></td>
-                                                <td><code>.col-lg-</code></td>
-                                                <td><code>.col-xl-</code></td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-nowrap" scope="row"># of columns</th>
-                                                <td colspan="5">12</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-nowrap" scope="row">Gutter width</th>
-                                                <td colspan="5">30px (15px on each side of a column)</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-nowrap" scope="row">Nestable</th>
-                                                <td colspan="5">Yes</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-nowrap" scope="row">Offsets</th>
-                                                <td colspan="5">Yes</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-nowrap" scope="row">Column ordering</th>
-                                                <td colspan="5">Yes</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <h4 class="card-title">Drag and Drop Your Event</h4>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div id="calendar-events" class="m-t-20">
+                                            <div class="calendar-events ui-draggable ui-draggable-handle" data-class="bg-info"
+                                                style="position: relative;"><i class="fa fa-circle text-info"></i> My
+                                                Event One</div>
+                                            <div class="calendar-events ui-draggable ui-draggable-handle" data-class="bg-success"
+                                                style="position: relative;"><i class="fa fa-circle text-success"></i>
+                                                My Event Two</div>
+                                            <div class="calendar-events ui-draggable ui-draggable-handle" data-class="bg-danger"
+                                                style="position: relative;"><i class="fa fa-circle text-danger"></i> My
+                                                Event Three</div>
+                                            <div class="calendar-events ui-draggable ui-draggable-handle" data-class="bg-warning"
+                                                style="position: relative;"><i class="fa fa-circle text-warning"></i>
+                                                My Event Four</div>
+                                        </div>
+                                        <!-- checkbox -->
+                                        <div class="checkbox">
+                                            <input id="drop-remove" type="checkbox">
+                                            <label for="drop-remove">
+                                                Remove after drop
+                                            </label>
+                                        </div>
+                                        <a href="#" data-toggle="modal" data-target="#add-new-event" class="btn btn-lg m-t-40 btn-danger btn-block waves-effect waves-light">
+                                            <i class="ti-plus"></i> Add New Event
+                                        </a>
+                                    </div>
                                 </div>
-                                <p>Grid classes apply to devices with screen widths greater than or equal to the
-                                    breakpoint sizes, and override grid classes targeted at smaller devices. Therefore,
-                                    applying any <code>.col-md-</code> class to an element will not only affect its
-                                    styling on medium devices but also on large devices if a <code>.col-lg-</code>
-                                    class is not present.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div id="calendar" class="fc fc-unthemed fc-ltr">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- BEGIN MODAL -->
+                <div class="modal none-border" id="my-event">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title"><strong>Add Event</strong></h4>
+                            </div>
+                            <div class="modal-body"></div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-white waves-effect" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success save-event waves-effect waves-light">Create
+                                    event</button>
+                                <button type="button" class="btn btn-danger delete-event waves-effect waves-light"
+                                    data-dismiss="modal">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Add Category -->
+                <div class="modal fade none-border" id="add-new-event">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title"><strong>Add</strong> a category</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <form role="form">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label class="control-label">Category Name</label>
+                                            <input class="form-control form-white" placeholder="Enter name" type="text"
+                                                name="category-name" />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="control-label">Choose Category Color</label>
+                                            <select class="form-control form-white" data-placeholder="Choose a color..."
+                                                name="category-color">
+                                                <option value="success">Success</option>
+                                                <option value="danger">Danger</option>
+                                                <option value="info">Info</option>
+                                                <option value="primary">Primary</option>
+                                                <option value="warning">Warning</option>
+                                                <option value="inverse">Inverse</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger waves-effect waves-light save-category"
+                                    data-dismiss="modal">Save</button>
+                                <button type="button" class="btn btn-white waves-effect" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MODAL -->
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
                 <!-- ============================================================== -->
@@ -514,7 +567,9 @@
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
-            <footer class="footer"> © 2018 Material Pro Admin by wrappixel.com </footer>
+            <footer class="footer">
+                © 2018 Material Pro Admin by wrappixel.com
+            </footer>
             <!-- ============================================================== -->
             <!-- End footer -->
             <!-- ============================================================== -->
@@ -530,6 +585,7 @@
     <!-- All Jquery -->
     <!-- ============================================================== -->
     <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/calendar/jquery-ui.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="assets/plugins/popper/popper.min.js"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -542,27 +598,22 @@
     <!--stickey kit -->
     <script src="assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
     <script src="assets/plugins/sparkline/jquery.sparkline.min.js"></script>
-    <script src="assets/plugins/sparkline/jquery.sparkline.min.js"></script>
     <!--Custom JavaScript -->
     <script src="js/custom.min.js"></script>
-    <!-- ============================================================== -->
-    <!-- This page plugins -->
-    <!-- ============================================================== -->
-    <!-- chartist chart -->
-    <script src="assets/plugins/chartist-js/dist/chartist.min.js"></script>
-    <script src="assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
-    <!--c3 JavaScript -->
-    <script src="assets/plugins/d3/d3.min.js"></script>
-    <script src="assets/plugins/c3-master/c3.min.js"></script>
-    <!-- Chart JS -->
-    <script src="js/dashboard1.js"></script>
+    <!-- Calendar JavaScript -->
+    <script src="assets/plugins/calendar/jquery-ui.min.js"></script>
+    <script src="assets/plugins/moment/moment.js"></script>
+    <script src="assets/plugins/calendar/dist/fullcalendar.min.js"></script>
+    <script src="assets/plugins/calendar/dist/cal-init.js"></script>
     <!-- ============================================================== -->
     <!-- Style switcher -->
-    <!-- ============================================================== -->
-    <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script><!-- ============================================================== -->
+
+
+
+    <div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
+    <div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
+    <div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
 </body>
-
-
-<!-- Mirrored from wrappixel.com/demos/admin-templates/material-pro/dark/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Oct 2018 02:28:46 GMT -->
 
 </html>

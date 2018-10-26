@@ -66,6 +66,11 @@ Global Styles
   height: 33px;
 }
 
+.dark-logo{
+  width: 34px;
+  height: 33px;
+}
+
 .card {
   background: #263238; }
 
@@ -5582,7 +5587,7 @@ When click on sidebar toggler and also for tablet
         top: 15px; }
   .mini-sidebar .scroll-sidebar {
     padding-bottom: 0px;
-    position: absolute; }
+    position: fixed; }
   .mini-sidebar .hide-menu,
   .mini-sidebar .nav-small-cap,
   .mini-sidebar .sidebar-footer,
@@ -7306,7 +7311,8 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  padding: 25px; }
+  padding: 25px;
+  z-index: 2; }
 
 /*Radio button*/
 @-webkit-keyframes ripple {

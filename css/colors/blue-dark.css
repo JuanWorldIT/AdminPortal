@@ -1,3 +1,15 @@
+/*
+Template Name: Material Pro Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Material Pro Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 /*Theme Colors*/
 /*bootstrap Color*/
@@ -27,10 +39,6 @@
   background: #1e88e5;
 }
 
-.topbar .navbar-header {
-  background: rgba(0, 0, 0, 0.05);
-}
-
 .topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
   display: none;
 }
@@ -41,16 +49,34 @@
 }
 
 .topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
-  color: #ffffff !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .topbar .navbar-light .navbar-nav .nav-item > a.nav-link:hover, .topbar .navbar-light .navbar-nav .nav-item > a.nav-link:focus {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: #ffffff !important;
+}
+
+.logo-center .topbar .navbar-header {
+  background: transparent;
+  box-shadow: none;
+}
+
+.logo-center .topbar .top-navbar .navbar-header .navbar-brand .dark-logo {
+  display: none;
+}
+
+.logo-center .topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /*******************
 /*General Elements
 *******************/
+a {
+  color: #1e88e5;
+}
+
 a.link:hover, a.link:focus {
   color: #1e88e5 !important;
 }
@@ -118,12 +144,26 @@ a.link:hover, a.link:focus {
 /*******************
 /*sidebar navigation
 *******************/
+.card-no-border .left-sidebar, .card-no-border .sidebar-nav {
+  background: #272c33;
+}
+
+.mini-sidebar .sidebar-nav {
+  background: transparent;
+}
+
+@media (min-width: 768px) {
+  .mini-sidebar .sidebar-nav #sidebarnav > li > ul {
+    background: #181c22;
+  }
+}
+
 .sidebar-nav {
-  background: #fff;
+  background: #272c33;
 }
 
 .sidebar-nav ul li a {
-  color: #607d8b;
+  color: #798699;
 }
 
 .sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
@@ -131,7 +171,7 @@ a.link:hover, a.link:focus {
 }
 
 .sidebar-nav ul li a.active {
-  color: #263238;
+  color: #ffffff;
 }
 
 .sidebar-nav ul li.nav-small-cap {
@@ -156,11 +196,19 @@ a.link:hover, a.link:focus {
 }
 
 .sidebar-nav > ul > li > a i {
-  color: #99abb4;
+  color: #798699;
 }
 
 .sidebar-nav > ul > li > a.active {
   font-weight: 400;
   background: #ffffff;
   color: #1e88e5;
+}
+
+.user-profile .profile-text a {
+  color: #798699 !important;
+}
+
+.card-no-border .sidebar-footer {
+  background: #181c22;
 }
