@@ -72,7 +72,7 @@ Global Styles
 }
 
 .card {
-  background: #263238; }
+  background-color: rgba(38, 50, 58, 0); }
 
 * {
   outline: none; }
@@ -6622,7 +6622,6 @@ File: scss
 .card-inverse .card-header,
 .card-inverse .card-title {
   color: #ffffff; }
-
 /*
 Template Name: Monster Admin
 Author: Themedesigner
@@ -6856,6 +6855,10 @@ File: scss
     position: absolute;
     top: calc(50% - 3.5px);
     left: calc(50% - 3.5px); }
+
+  .card-title{
+    color: #747d8a;
+  }
 
 /* Radio Buttons
    ========================================================================== */
