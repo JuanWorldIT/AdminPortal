@@ -72,7 +72,11 @@ Global Styles
 }
 
 .card {
+<<<<<<< HEAD:css/style.css
   background: #263238; }
+=======
+  background-color: rgba(38, 50, 58, 0); }
+>>>>>>> 75877dc85646054c6aac54d1fd4812a4dbb26aad:css/style.css
 
 * {
   outline: none; }
@@ -101,6 +105,11 @@ a.link {
 .img-responsive {
   display: inline-block;
   width: 100%;
+  height: auto; }
+
+.img-responsive2 {
+  display: inline-block;
+  width: 50%;
   height: auto; }
 
 .img-rounded {
@@ -6622,7 +6631,6 @@ File: scss
 .card-inverse .card-header,
 .card-inverse .card-title {
   color: #ffffff; }
-
 /*
 Template Name: Monster Admin
 Author: Themedesigner
@@ -6856,6 +6864,10 @@ File: scss
     position: absolute;
     top: calc(50% - 3.5px);
     left: calc(50% - 3.5px); }
+
+  .card-title{
+    color: #747d8a;
+  }
 
 /* Radio Buttons
    ========================================================================== */
