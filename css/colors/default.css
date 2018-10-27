@@ -36,7 +36,7 @@ File: scss
 /*Top bar
 *******************/
 .topbar {
-  background: #455a64;
+  background: #FCD804;
 }
 
 .topbar .navbar-header {
@@ -140,6 +140,7 @@ a.link:hover, a.link:focus {
 
 .sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
   color: #26c6da;
+  background:#696969 !important;
 }
 
 .sidebar-nav ul li a.active {
@@ -152,7 +153,7 @@ a.link:hover, a.link:focus {
 
 .sidebar-nav > ul > li.active > a, .sidebar-nav > ul > li.active:hover > a {
   color: #ffffff;
-  background: #26c6da;
+  background: #696969;
 }
 
 .sidebar-nav > ul > li.active > a i, .sidebar-nav > ul > li.active:hover > a i {
@@ -167,12 +168,24 @@ a.link:hover, a.link:focus {
   color: #26c6da;
 }
 
+.nav-item > .active{
+  background: #696969 !important;
+}
+
 .sidebar-nav > ul > li > a i {
   color: #99abb4;
 }
 
 .sidebar-nav > ul > li > a.active {
   font-weight: 400;
-  background: #ffffff;
+  background: #696969;
   color: #009efb;
+}
+
+.inbox-panel > ul > li.active {
+  background: #696969 !important;
+}
+
+.inbox-panel > ul > li.active > a{
+  color: white !important;
 }

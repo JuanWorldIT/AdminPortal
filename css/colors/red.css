@@ -103,7 +103,7 @@ a.link:hover, a.link:focus {
 .profile-tab li a.nav-link.active,
 .customtab li a.nav-link.active {
   border-bottom: 2px solid #f62d51;
-  color: #f62d51;
+  color: white;
 }
 
 .profile-tab li a.nav-link:hover,
@@ -178,8 +178,21 @@ a.link:hover, a.link:focus {
   color: #99abb4;
 }
 
+.nav-item > .active{
+  background: #f62d51 !important;
+}
+
+
 .sidebar-nav > ul > li > a.active {
   font-weight: 400;
   background: #ffffff;
   color: #f62d51;
+}
+
+.inbox-panel > ul > li.active {
+  background: #f62d51 !important;
+}
+
+.inbox-panel > ul > li.active > a{
+  color: white !important;
 }

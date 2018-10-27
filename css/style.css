@@ -8198,9 +8198,9 @@ a.list-group-item:hover {
   stroke-width: 2px; }
 
 .ct-label, .ct-grid {
-  fill: rgba(255, 255, 255, 0.3);
-  stroke: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.3); }
+  fill: rgba(38, 50, 56, 1);
+  stroke: rgba(38, 50, 56, 1);
+  color: rgba(38, 50, 56, 1); }
 
 .irs-line {
   opacity: 0.1; }
