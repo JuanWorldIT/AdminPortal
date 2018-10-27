@@ -36,7 +36,7 @@ File: scss
 /*Top bar
 *******************/
 .topbar {
-  background: #455a64;
+  background: #FCD804;
 }
 
 .topbar .navbar-header {
@@ -113,7 +113,7 @@ a.link:hover, a.link:focus {
 *******************/
 .btn-themecolor,
 .btn-themecolor.disabled {
-  background: #009efb;
+  background: #FCD804;
   color: #ffffff;
   border: 1px solid #009efb;
 }
@@ -128,7 +128,7 @@ a.link:hover, a.link:focus {
 .btn-themecolor.active, .btn-themecolor:focus,
 .btn-themecolor.disabled.active,
 .btn-themecolor.disabled:focus {
-  background: #028ee1;
+  background: #FCD804;
 }
 
 /*******************
@@ -157,7 +157,7 @@ a.link:hover, a.link:focus {
 }
 
 .sidebar-nav ul li a.active, .sidebar-nav ul li a:hover {
-  color: #26c6da;
+  color: #FCD804;
 }
 
 .sidebar-nav ul li a.active {
@@ -170,7 +170,7 @@ a.link:hover, a.link:focus {
 
 .sidebar-nav > ul > li.active > a, .sidebar-nav > ul > li.active:hover > a {
   color: #ffffff !important;
-  background: #26c6da !important;
+  background: #FCD804 !important;
 }
 
 .sidebar-nav > ul > li.active > a i, .sidebar-nav > ul > li.active:hover > a i {
@@ -190,7 +190,11 @@ a.link:hover, a.link:focus {
 }
 
 .nav-item > .active{
+<<<<<<< HEAD
   background: #26c6da !important;
+=======
+  background: #FCD804 !important;
+>>>>>>> 166a81b871e8b7c6399c436f473c502ed5fb249c
 }
 
 .sidebar-nav > ul > li > a.active {
@@ -208,7 +212,11 @@ a.link:hover, a.link:focus {
 }
 
 .inbox-panel > ul > li.active {
+<<<<<<< HEAD
   background: #26c6da !important;
+=======
+  background: #FCD804 !important;
+>>>>>>> 166a81b871e8b7c6399c436f473c502ed5fb249c
 }
 
 .inbox-panel > ul > li.active > a{
