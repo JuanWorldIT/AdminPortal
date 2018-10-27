@@ -96,7 +96,7 @@ a.link:hover, a.link:focus {
 .profile-tab li a.nav-link.active,
 .customtab li a.nav-link.active {
   border-bottom: 2px solid #26c6da;
-  color: #26c6da;
+  color:white;
 }
 
 .profile-tab li a.nav-link:hover,
@@ -185,6 +185,10 @@ a.link:hover, a.link:focus {
   color: #798699;
 }
 
+.nav-item > .active{
+  background: #26c6da !important;
+}
+
 .sidebar-nav > ul > li > a.active {
   font-weight: 400;
   background: #ffffff;
@@ -197,4 +201,12 @@ a.link:hover, a.link:focus {
 
 .card-no-border .sidebar-footer {
   background: #181c22;
+}
+
+.inbox-panel > ul > li.active {
+  background: #26c6da !important;
+}
+
+.inbox-panel > ul > li.active > a{
+  color: white !important;
 }

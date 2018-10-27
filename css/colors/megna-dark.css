@@ -181,6 +181,10 @@ a.link:hover, a.link:focus {
   color: #00897b;
 }
 
+.nav-item > .active{
+  background: #00897b !important;
+}
+
 .sidebar-nav > ul > li > a i {
   color: #798699;
 }
@@ -197,4 +201,12 @@ a.link:hover, a.link:focus {
 
 .card-no-border .sidebar-footer {
   background: #181c22;
+}
+
+.inbox-panel > ul > li.active {
+  background: #00897b !important;
+}
+
+.inbox-panel > ul > li.active > a{
+  color: white !important;
 }
