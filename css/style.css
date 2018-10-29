@@ -1,16 +1,3 @@
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 /*Theme Colors*/
 /*bootstrap Color*/
 /*Light colors*/
@@ -24,7 +11,7 @@ File: scss
 @import url(icons/themify-icons/themify-icons.css);
 @import url(icons/flag-icon-css/flag-icon.min.css);
 @import url(icons/material-design-iconic-font/css/materialdesignicons.min.css);
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url(googleapis.css);
 @import url(spinners.css);
 @import url(animate.css);
 
@@ -40,12 +27,7 @@ File: scss
     top: calc(50% - 3.5px);
     left: calc(50% - 3.5px); }
 
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
 /**
  * Table Of Content
  *
@@ -1653,12 +1635,7 @@ Layouts
 .card-group {
   margin-bottom: 30px; }
 
-/*
-Template Name: Material Pro Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
 /*============================================================== 
  For all pages 
  ============================================================== */
@@ -5210,7 +5187,7 @@ Email inbox Page
   .inbox-panel .list-group .list-group-item a {
     color: #747d8a; }
   .inbox-panel .list-group .list-group-item.active, .inbox-panel .list-group .list-group-item:hover {
-    background: #383f48;
+    background: whitesmoke;
     border-left: 3px solid #009efb; }
 
 .inbox-center .unread td {
@@ -5219,6 +5196,10 @@ Email inbox Page
 .inbox-center td {
   vertical-align: middle;
   white-space: nowrap; }
+
+.inbox-center > table > tbody > tr:hover {
+  background-color: whitesmoke;
+     }
 
 .inbox-center a {
   color: #747d8a;
@@ -5257,6 +5238,10 @@ Contact app Page
   padding: 25px 10px; }
   .contact-list td img {
     width: 30px; }
+
+.contact-list > tbody > tr:hover{
+  background-color: whitesmoke !important;
+}
 
 .list-style-none {
   margin: 0px;
@@ -5319,12 +5304,6 @@ table footable page
 .table-responsive > .table-bordered {
   border: 1px solid rgba(120, 130, 140, 0.13); }
 
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
 /*******************
 Main sidebar
 ******************/
@@ -5627,12 +5606,7 @@ When click on sidebar toggler and also for tablet
   .mini-sidebar.show-sidebar .left-sidebar, .mini-sidebar.show-sidebar .sidebar-footer {
     left: 0px; } }
 
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
 /*******************
 /*User mail widgets*/
 /*******************/
@@ -6320,12 +6294,6 @@ File: scss
     .contact-box .contact-widget > a .user-img {
       margin-bottom: 0px !important; }
 
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
 @media (min-width: 1600px) {
   .col-xlg-1,
   .col-xlg-10,
@@ -6627,12 +6595,7 @@ File: scss
 .card-inverse .card-header,
 .card-inverse .card-title {
   color: #ffffff; }
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
 /*============================================================== 
  For Laptop & above all (1650px) 
  ============================================================== */
@@ -6831,18 +6794,8 @@ File: scss
   .chat-list li .chat-content {
     width: calc(100% - 80px); } }
 
-/*
-Template Name: Material Pro Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
+
 /*Theme Colors*/
 /*bootstrap Color*/
 /*Light colors*/
@@ -8073,12 +8026,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
     .switch label input[type=checkbox]:checked + .lever.switch-col-white:after {
       background-color: #ffffff; }
 
-/*
-Template Name: Monster Admin
-Author: Themedesigner
-Email: niravjoshi87@gmail.com
-File: scss
-*/
+
 /*Theme Colors*/
 .form-control, .btn-secondary:hover, .form-control:focus, .btn-secondary.active, .card-outline-danger, .card-outline-info, .card-outline-warning, .card-outline-success, .card-outline-primary, .popover-title, .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--multiple, .bootstrap-tagsinput, .footable .pagination li a, .select2-container--default .select2-selection--single .select2-selection__rendered, .ms-container .ms-selectable li.ms-elem-selectable, .ms-container .ms-selection li.ms-elem-selection, .jsgrid-row > .jsgrid-cell, .page-item .page-link, .page-item.disabled .page-link, .minimal-faq .card .card-header, .mega-dropdown .nav-accordion .card-header {
   background-color: #263238; }
@@ -8087,7 +8035,7 @@ File: scss
   background: #383f48; }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .footable .pagination li a, .select2-container--default .select2-selection--single .select2-selection__rendered, .ms-container .ms-selectable li.ms-elem-selectable, .ms-container .ms-selection li.ms-elem-selection, .close, .page-item .page-link {
-  color: #ffffff; }
+  color: black; }
 
 /******************* 
 Border Colors
@@ -8117,7 +8065,7 @@ Border Colors
   background: none; }
 
 .btn-secondary, .glyphs.character-mapping input {
-  background: #383f48;
+  background: whitesmoke;
   border-color: #272c36;
   color: #747d8a; }
   .btn-secondary:hover, .btn-secondary.active, .glyphs.character-mapping input:hover, .glyphs.character-mapping input.active {
@@ -8215,3 +8163,12 @@ a.list-group-item:hover {
 
 .custom-control-label::before {
   background-color: #383f48; }
+
+.dw-user-box > div>  h4{
+  color: white;
+}
+
+.chart-text > .m-b-0 > small{
+  color: white;
+
+}
