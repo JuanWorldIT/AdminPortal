@@ -8172,3 +8172,18 @@ a.list-group-item:hover {
   color: white;
 
 }
+
+
+/* LABEL-Tier */
+.label-bronze {
+  background-color: #cd7f32;
+}
+.label-silver {
+  background-color: #c0c0c0;
+}
+.label-gold {
+  background-color: #ffd700;
+}
+.label-platinum {
+  background: linear-gradient(to top right, #99ccff -68%, #e5e4e2 90%);
+}
